@@ -1,0 +1,1989 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/ldelf-lib/libutee/libutee.a(assert.o)
+                              build/ldelf/main.o (_assert_log)
+build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                              build/ldelf/ta_elf.o (tee_uuid_from_str)
+build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+                              build/ldelf-lib/libutee/libutee.a(assert.o) (_utee_panic)
+build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                              build/ldelf/ta_elf.o (malloc)
+build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                              build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o) (isxdigit)
+build/ldelf-lib/libutils/libutils.a(snprintf.o)
+                              build/ldelf/ta_elf.o (snprintf)
+build/ldelf-lib/libutils/libutils.a(tolower.o)
+                              build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o) (tolower)
+build/ldelf-lib/libutils/libutils.a(memcmp.o)
+                              build/ldelf/dl.o (memcmp)
+build/ldelf-lib/libutils/libutils.a(memcpy.o)
+                              build/ldelf/ta_elf.o (memcpy)
+build/ldelf-lib/libutils/libutils.a(memset.o)
+                              build/ldelf/dl.o (memset)
+build/ldelf-lib/libutils/libutils.a(strcmp.o)
+                              build/ldelf/ta_elf_rel.o (strcmp)
+build/ldelf-lib/libutils/libutils.a(strcpy.o)
+                              build/ldelf/ta_elf.o (strcpy)
+build/ldelf-lib/libutils/libutils.a(strnlen.o)
+                              build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o) (strnlen)
+build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                              build/ldelf/ta_elf.o (__aeabi_uldivmod)
+build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+                              build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o) (__ul_divmod)
+build/ldelf-lib/libutils/libutils.a(snprintk.o)
+                              build/ldelf-lib/libutils/libutils.a(snprintf.o) (__vsnprintf)
+build/ldelf-lib/libutils/libutils.a(trace.o)
+                              build/ldelf/main.o (trace_vprintf)
+build/ldelf-lib/libutils/libutils.a(memchr.o)
+                              build/ldelf-lib/libutils/libutils.a(snprintk.o) (memchr)
+build/ldelf-lib/libutils/libutils.a(strlen.o)
+                              build/ldelf-lib/libutils/libutils.a(snprintk.o) (strlen)
+build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                              build/ldelf-lib/libutils/libutils.a(trace.o) (trace_ext_puts)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/ldelf/start_a32.o
+ .data          0x0000000000000000        0x0 build/ldelf/start_a32.o
+ .bss           0x0000000000000000        0x0 build/ldelf/start_a32.o
+ .text          0x0000000000000000        0x0 build/ldelf/syscalls_a32.o
+ .data          0x0000000000000000        0x0 build/ldelf/syscalls_a32.o
+ .bss           0x0000000000000000        0x0 build/ldelf/syscalls_a32.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/dl.o
+ .text          0x0000000000000000        0x0 build/ldelf/dl.o
+ .data          0x0000000000000000        0x0 build/ldelf/dl.o
+ .bss           0x0000000000000000        0x0 build/ldelf/dl.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/main.o
+ .text          0x0000000000000000        0x0 build/ldelf/main.o
+ .data          0x0000000000000000        0x0 build/ldelf/main.o
+ .bss           0x0000000000000000        0x0 build/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x58 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x16d build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x7c build/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x2e build/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x35 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xf0 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x76 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0xb2 build/ldelf/main.o
+ .debug_macro   0x0000000000000000       0x16 build/ldelf/main.o
+ .debug_macro   0x0000000000000000      0x2e9 build/ldelf/main.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/sys.o
+ .text          0x0000000000000000        0x0 build/ldelf/sys.o
+ .data          0x0000000000000000        0x0 build/ldelf/sys.o
+ .bss           0x0000000000000000        0x0 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x7c build/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x16d build/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x2e build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x35 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xf0 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x76 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0xb2 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x58 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x34 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x79 build/ldelf/sys.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/sys.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf.o
+ .text          0x0000000000000000        0x0 build/ldelf/ta_elf.o
+ .data          0x0000000000000000        0x0 build/ldelf/ta_elf.o
+ .bss           0x0000000000000000        0x0 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x58 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x16d build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x34 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x79 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x10 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x7c build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x2e build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x35 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xf0 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x76 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0xb2 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x39 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x16 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000000000      0x2e9 build/ldelf/ta_elf.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf/ta_elf_rel.o
+ .text          0x0000000000000000        0x0 build/ldelf/ta_elf_rel.o
+ .data          0x0000000000000000        0x0 build/ldelf/ta_elf_rel.o
+ .bss           0x0000000000000000        0x0 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x58 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x16d build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x34 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x79 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x10 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x7c build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000     0x15e6 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x4a build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x5f build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x16 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x35 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0xf0 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x2e build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0x22 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000       0xb2 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000000000      0x2e9 build/ldelf/ta_elf_rel.o
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x34 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x79 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x35 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xdc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x35 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x34 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0x79 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000000000       0xdc build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_return
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_log
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_get_property
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_get_property_name_to_index
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_open_ta_session
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_close_ta_session
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_invoke_ta_command
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_get_cancellation_flag
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_check_access_rights
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_unmask_cancellation
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_mask_cancellation
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_wait
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_get_time
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_set_ta_time
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_state_alloc
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_state_copy
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_state_free
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_hash_init
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_hash_update
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_hash_final
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cipher_init
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cipher_update
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cipher_final
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_get_info
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_restrict_usage
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_get_attr
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_alloc
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_close
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_reset
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_populate
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_copy
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_derive_key
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_random_number_generate
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_authenc_init
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_authenc_update_aad
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_authenc_update_payload
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_authenc_enc_final
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_authenc_dec_final
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_asymm_operate
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_asymm_verify
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_open
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_create
+                0x0000000000000000       0x18 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_del
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_rename
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_alloc_enum
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_free_enum
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_reset_enum
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_start_enum
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_next_enum
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_read
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_write
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_trunc
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_storage_obj_seek
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cryp_obj_generate_key
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .text._utee_cache_operation
+                0x0000000000000000       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.bstats.str1.1
+                0x0000000000000000       0x10 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.bstats   0x0000000000000000       0x64 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_reset_stats
+                0x0000000000000000       0x14 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_get_stats
+                0x0000000000000000       0x1c build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_memalign
+                0x0000000000000000       0x44 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.memalign
+                0x0000000000000000       0x20 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.free_wipe
+                0x0000000000000000       0x10 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_get_ctx_size
+                0x0000000000000000        0x4 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_init_ctx
+                0x0000000000000000       0x12 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_add_pool
+                0x0000000000000000        0x4 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc_get_stats
+                0x0000000000000000       0x18 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_buffer_is_within_alloced
+                0x0000000000000000       0xd8 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc_buffer_overlaps_heap
+                0x0000000000000000       0x54 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.0
+                0x0000000000000000       0x13 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.1
+                0x0000000000000000        0xe build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.3
+                0x0000000000000000        0x7 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x2e build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x39 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x34 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x79 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xf0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .text.vsnprintf
+                0x0000000000000000        0xe build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memset.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .text.__aeabi_ldivmod
+                0x0000000000000000       0x18 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .text.__l_divmod
+                0x0000000000000000       0x7e build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .text.__vsprintf
+                0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(trace.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .text.trace_set_level
+                0x0000000000000000       0x1c build/ldelf-lib/libutils/libutils.a(trace.o)
+ .text.trace_get_level
+                0x0000000000000000       0x14 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .text.dhex_dump
+                0x0000000000000000        0x2 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x34 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x79 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x2e build/ldelf-lib/libutils/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .data          0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .bss           0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text.printf   0x0000000000000000       0x3a build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .rodata.puts.str1.1
+                0x0000000000000000        0x2 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text.puts     0x0000000000000000       0x24 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .text.putchar  0x0000000000000000       0x22 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x6b0 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x16d build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x58 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x16 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xf3 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x22 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x34 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x79 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x7c build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x1a7 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xc4 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xea build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x9b3 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x35 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x2e build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x4000
+                0x0000000000000000                __text_start = .
+ *(SORT_BY_ALIGNMENT(.text._ldelf_start))
+ .text._ldelf_start
+                0x0000000000000000       0x64 build/ldelf/start_a32.o
+                0x0000000000000000                _ldelf_start
+ *(SORT_BY_ALIGNMENT(.text) SORT_BY_ALIGNMENT(.text.*))
+ .text._ldelf_panic
+                0x0000000000000064       0x14 build/ldelf/syscalls_a32.o
+                0x0000000000000064                _ldelf_panic
+ .text._ldelf_return
+                0x0000000000000078       0x14 build/ldelf/syscalls_a32.o
+                0x0000000000000078                _ldelf_return
+ .text._ldelf_log
+                0x000000000000008c       0x14 build/ldelf/syscalls_a32.o
+                0x000000000000008c                _ldelf_log
+ .text.__ldelf_panic
+                0x00000000000000a0       0x14 build/ldelf/syscalls_a32.o
+                0x00000000000000a0                __ldelf_panic
+ .text._ldelf_map_zi
+                0x00000000000000b4       0x18 build/ldelf/syscalls_a32.o
+                0x00000000000000b4                _ldelf_map_zi
+ .text._ldelf_unmap
+                0x00000000000000cc       0x14 build/ldelf/syscalls_a32.o
+                0x00000000000000cc                _ldelf_unmap
+ .text._ldelf_open_bin
+                0x00000000000000e0       0x14 build/ldelf/syscalls_a32.o
+                0x00000000000000e0                _ldelf_open_bin
+ .text._ldelf_close_bin
+                0x00000000000000f4       0x14 build/ldelf/syscalls_a32.o
+                0x00000000000000f4                _ldelf_close_bin
+ .text._ldelf_map_bin
+                0x0000000000000108       0x18 build/ldelf/syscalls_a32.o
+                0x0000000000000108                _ldelf_map_bin
+ .text._ldelf_cp_from_bin
+                0x0000000000000120       0x14 build/ldelf/syscalls_a32.o
+                0x0000000000000120                _ldelf_cp_from_bin
+ .text._ldelf_set_prot
+                0x0000000000000134       0x14 build/ldelf/syscalls_a32.o
+                0x0000000000000134                _ldelf_set_prot
+ .text._ldelf_remap
+                0x0000000000000148       0x18 build/ldelf/syscalls_a32.o
+                0x0000000000000148                _ldelf_remap
+ .text._ldelf_gen_rnd_num
+                0x0000000000000160       0x14 build/ldelf/syscalls_a32.o
+                0x0000000000000160                _ldelf_gen_rnd_num
+ .text.dlopen_entry
+                0x0000000000000174       0x40 build/ldelf/dl.o
+                0x0000000000000174                dlopen_entry
+ .text.dlsym_entry
+                0x00000000000001b4       0x4c build/ldelf/dl.o
+                0x00000000000001b4                dlsym_entry
+ .text.dl_entry
+                0x0000000000000200       0x24 build/ldelf/main.o
+ .text.dump_ta_state
+                0x0000000000000224       0xb0 build/ldelf/main.o
+ .text.ldelf    0x00000000000002d4       0xe0 build/ldelf/main.o
+                0x00000000000002d4                ldelf
+ .text.__panic  0x00000000000003b4       0x84 build/ldelf/sys.o
+                0x00000000000003b4                __panic
+ .text.check_range
+                0x0000000000000438       0x84 build/ldelf/ta_elf.o
+ .text.check_hashtab
+                0x00000000000004bc       0x74 build/ldelf/ta_elf.o
+ .text.queue_elf_helper
+                0x0000000000000530       0x44 build/ldelf/ta_elf.o
+ .text.add_segment
+                0x0000000000000574       0x90 build/ldelf/ta_elf.o
+ .text.populate_segments
+                0x0000000000000604      0x3a4 build/ldelf/ta_elf.o
+ .text.ta_elf_add_bti
+                0x00000000000009a8       0x4c build/ldelf/ta_elf.o
+ .text.init_elf
+                0x00000000000009f4      0x188 build/ldelf/ta_elf.o
+ .text.copy_section_headers
+                0x0000000000000b7c       0xf4 build/ldelf/ta_elf.o
+ .text.close_handle
+                0x0000000000000c70       0x3c build/ldelf/ta_elf.o
+ .text.print_seg
+                0x0000000000000cac       0xe4 build/ldelf/ta_elf.o
+ .text.map_segments
+                0x0000000000000d90      0x3ec build/ldelf/ta_elf.o
+ .text.check_phdr_in_range.constprop.0
+                0x000000000000117c       0x60 build/ldelf/ta_elf.o
+ .text.save_soname_from_segment
+                0x00000000000011dc       0xb0 build/ldelf/ta_elf.o
+ .text.save_hashtab_from_segment
+                0x000000000000128c       0x8c build/ldelf/ta_elf.o
+ .text.save_symtab
+                0x0000000000001318      0x254 build/ldelf/ta_elf.o
+ .text.get_init_fini_array.constprop.0
+                0x000000000000156c       0xb4 build/ldelf/ta_elf.o
+ .text.ta_elf_find_elf
+                0x0000000000001620       0x2c build/ldelf/ta_elf.o
+                0x0000000000001620                ta_elf_find_elf
+ .text.queue_elf
+                0x000000000000164c       0x40 build/ldelf/ta_elf.o
+ .text.add_deps_from_segment
+                0x000000000000168c      0x12c build/ldelf/ta_elf.o
+ .text.ta_elf_load_main
+                0x00000000000017b8      0x32c build/ldelf/ta_elf.o
+                0x00000000000017b8                ta_elf_load_main
+ .text.ta_elf_load_dependency
+                0x0000000000001ae4       0xa8 build/ldelf/ta_elf.o
+                0x0000000000001ae4                ta_elf_load_dependency
+ .text.ta_elf_finalize_mappings
+                0x0000000000001b8c       0x58 build/ldelf/ta_elf.o
+                0x0000000000001b8c                ta_elf_finalize_mappings
+ .text.ta_elf_print_mappings
+                0x0000000000001be4      0x22c build/ldelf/ta_elf.o
+                0x0000000000001be4                ta_elf_print_mappings
+ .text.ta_elf_set_init_fini_info_compat
+                0x0000000000001e10      0x1ac build/ldelf/ta_elf.o
+                0x0000000000001e10                ta_elf_set_init_fini_info_compat
+ .text.ta_elf_set_elf_phdr_info
+                0x0000000000001fbc      0x188 build/ldelf/ta_elf.o
+                0x0000000000001fbc                ta_elf_set_elf_phdr_info
+ .text.ta_elf_finalize_load_main
+                0x0000000000002144       0xa8 build/ldelf/ta_elf.o
+                0x0000000000002144                ta_elf_finalize_load_main
+ .text.ta_elf_add_library
+                0x00000000000021ec       0x6c build/ldelf/ta_elf.o
+                0x00000000000021ec                ta_elf_add_library
+ .text.__resolve_sym.part.0
+                0x0000000000002258       0xe4 build/ldelf/ta_elf_rel.o
+ .text.e32_get_sym_name.constprop.0.isra.0
+                0x000000000000233c       0x68 build/ldelf/ta_elf_rel.o
+ .text.resolve_sym_helper
+                0x00000000000023a4      0x100 build/ldelf/ta_elf_rel.o
+ .text.ta_elf_resolve_sym
+                0x00000000000024a4       0xb8 build/ldelf/ta_elf_rel.o
+                0x00000000000024a4                ta_elf_resolve_sym
+ .text.resolve_sym
+                0x000000000000255c       0x38 build/ldelf/ta_elf_rel.o
+ .text.ta_elf_relocate
+                0x0000000000002594      0x4a8 build/ldelf/ta_elf_rel.o
+                0x0000000000002594                ta_elf_relocate
+ .text._assert_log
+                0x0000000000002a3c       0x28 build/ldelf-lib/libutee/libutee.a(assert.o)
+                0x0000000000002a3c                _assert_log
+ .text._assert_break
+                0x0000000000002a64       0x10 build/ldelf-lib/libutee/libutee.a(assert.o)
+                0x0000000000002a64                _assert_break
+ .text.parse_hex
+                0x0000000000002a74       0x4c build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .text.tee_uuid_from_str
+                0x0000000000002ac0       0xc4 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                0x0000000000002ac0                tee_uuid_from_str
+ .text._utee_panic
+                0x0000000000002b84       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b84                _utee_panic
+ .text.__utee_panic
+                0x0000000000002b98       0x14 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b98                __utee_panic
+ .text.bget     0x0000000000002bac      0x204 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000002bac                bget
+ .text.bgetz    0x0000000000002db0       0x60 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000002db0                bgetz
+ .text.brel     0x0000000000002e10      0x1f0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000002e10                brel
+ .text.bgetr    0x0000000000003000       0x80 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003000                bgetr
+ .text.bpool    0x0000000000003080       0x98 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003080                bpool
+ .text.gen_malloc_add_pool
+                0x0000000000003118       0x80 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.malloc   0x0000000000003198       0x14 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003198                malloc
+ .text.calloc   0x00000000000031ac       0x20 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x00000000000031ac                calloc
+ .text.realloc  0x00000000000031cc       0x1c build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x00000000000031cc                realloc
+ .text.free     0x00000000000031e8       0x10 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x00000000000031e8                free
+ .text.malloc_add_pool
+                0x00000000000031f8       0x10 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x00000000000031f8                malloc_add_pool
+ .text.memcpy   0x0000000000003208       0xd8 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+                0x0000000000003208                memcpy
+ .text.__aeabi_uldivmod
+                0x00000000000032e0       0x18 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                0x00000000000032e0                __aeabi_uldivmod
+ .text.kprintf.constprop.0
+                0x00000000000032f8      0x680 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .text.trace_vprintf
+                0x0000000000003978      0x138 build/ldelf-lib/libutils/libutils.a(trace.o)
+                0x0000000000003978                trace_vprintf
+ .text.print_to_console
+                0x0000000000003ab0       0x18 build/ldelf/main.o
+ .text.sys_return_cleanup
+                0x0000000000003ac8        0x8 build/ldelf/sys.o
+                0x0000000000003ac8                sys_return_cleanup
+ .text.sys_map_zi
+                0x0000000000003ad0       0x14 build/ldelf/sys.o
+                0x0000000000003ad0                sys_map_zi
+ .text.sys_unmap
+                0x0000000000003ae4        0x4 build/ldelf/sys.o
+                0x0000000000003ae4                sys_unmap
+ .text.sys_open_ta_bin
+                0x0000000000003ae8        0x8 build/ldelf/sys.o
+                0x0000000000003ae8                sys_open_ta_bin
+ .text.sys_close_ta_bin
+                0x0000000000003af0        0x4 build/ldelf/sys.o
+                0x0000000000003af0                sys_close_ta_bin
+ .text.sys_map_ta_bin
+                0x0000000000003af4       0x16 build/ldelf/sys.o
+                0x0000000000003af4                sys_map_ta_bin
+ .text.sys_copy_from_ta_bin
+                0x0000000000003b0a       0x10 build/ldelf/sys.o
+                0x0000000000003b0a                sys_copy_from_ta_bin
+ .text.sys_set_prot
+                0x0000000000003b1a        0x4 build/ldelf/sys.o
+                0x0000000000003b1a                sys_set_prot
+ .text.sys_remap
+                0x0000000000003b1e        0x4 build/ldelf/sys.o
+                0x0000000000003b1e                sys_remap
+ .text.sys_gen_random_num
+                0x0000000000003b22        0x4 build/ldelf/sys.o
+                0x0000000000003b22                sys_gen_random_num
+ .text.get_pad_begin
+                0x0000000000003b26       0x22 build/ldelf/ta_elf.o
+ .text.print_wrapper
+                0x0000000000003b48       0x1a build/ldelf/ta_elf.o
+ .text.read_dyn
+                0x0000000000003b62       0x2a build/ldelf/ta_elf.o
+ .text.elf_get_init_fini_array.constprop.0
+                0x0000000000003b8c       0x5e build/ldelf/ta_elf.o
+ .text.add_dependencies
+                0x0000000000003bea       0x4a build/ldelf/ta_elf.o
+ .text.confine_array_index
+                0x0000000000003c34        0xc build/ldelf/ta_elf_rel.o
+ .text.raw_malloc_return_hook
+                0x0000000000003c40       0x20 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .text.raw_malloc
+                0x0000000000003c60       0x30 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003c60                raw_malloc
+ .text.raw_free
+                0x0000000000003c90        0x8 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003c90                raw_free
+ .text.raw_calloc
+                0x0000000000003c98       0x48 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003c98                raw_calloc
+ .text.raw_realloc
+                0x0000000000003ce0       0x44 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                0x0000000000003ce0                raw_realloc
+ .text.isxdigit
+                0x0000000000003d24       0x1c build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                0x0000000000003d24                isxdigit
+ .text.snprintf
+                0x0000000000003d40       0x1e build/ldelf-lib/libutils/libutils.a(snprintf.o)
+                0x0000000000003d40                snprintf
+ .text.tolower  0x0000000000003d5e        0xc build/ldelf-lib/libutils/libutils.a(tolower.o)
+                0x0000000000003d5e                tolower
+ .text.memcmp   0x0000000000003d6a       0x20 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+                0x0000000000003d6a                memcmp
+ .text.memset   0x0000000000003d8a       0x10 build/ldelf-lib/libutils/libutils.a(memset.o)
+                0x0000000000003d8a                memset
+ .text.strcmp   0x0000000000003d9a       0x16 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+                0x0000000000003d9a                strcmp
+ .text.strcpy   0x0000000000003db0       0x10 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+                0x0000000000003db0                strcpy
+ .text.strnlen  0x0000000000003dc0       0x18 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+                0x0000000000003dc0                strnlen
+ .text.ul_div_qr
+                0x0000000000003dd8       0x8e build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .text.__ul_divmod
+                0x0000000000003e66       0x40 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+                0x0000000000003e66                __ul_divmod
+ .text.__vsnprintf
+                0x0000000000003ea6       0x30 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+                0x0000000000003ea6                __vsnprintf
+ .text.vsnprintk
+                0x0000000000003ed6        0xe build/ldelf-lib/libutils/libutils.a(snprintk.o)
+                0x0000000000003ed6                vsnprintk
+ .text.snprintk
+                0x0000000000003ee4       0x1a build/ldelf-lib/libutils/libutils.a(snprintk.o)
+                0x0000000000003ee4                snprintk
+ .text.trace_printf
+                0x0000000000003efe       0x18 build/ldelf-lib/libutils/libutils.a(trace.o)
+                0x0000000000003efe                trace_printf
+ .text.memchr   0x0000000000003f16       0x1c build/ldelf-lib/libutils/libutils.a(memchr.o)
+                0x0000000000003f16                memchr
+ .text.strlen   0x0000000000003f32       0x10 build/ldelf-lib/libutils/libutils.a(strlen.o)
+                0x0000000000003f32                strlen
+ .text.trace_ext_puts
+                0x0000000000003f42       0x14 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                0x0000000000003f42                trace_ext_puts
+ .text.trace_ext_get_thread_id
+                0x0000000000003f56        0x6 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                0x0000000000003f56                trace_ext_get_thread_id
+ *fill*         0x0000000000003f5c        0x4 
+ .text.trace_ext_get_thread_id.__stub
+                0x0000000000003f60       0xa0 linker stubs
+ *(SORT_BY_ALIGNMENT(.stub))
+ *(SORT_BY_ALIGNMENT(.glue_7))
+ .glue_7        0x0000000000004000        0x0 linker stubs
+ *(SORT_BY_ALIGNMENT(.glue_7t))
+ .glue_7t       0x0000000000004000        0x0 linker stubs
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.t.*))
+ *(SORT_BY_ALIGNMENT(.vfp11_veneer))
+ .vfp11_veneer  0x0000000000004000        0x0 linker stubs
+                0x0000000000004000                __text_end = .
+
+.v4_bx          0x0000000000004000        0x0
+ .v4_bx         0x0000000000004000        0x0 linker stubs
+
+.iplt           0x0000000000004000        0x0
+ .iplt          0x0000000000004000        0x0 build/ldelf/start_a32.o
+
+.note.gnu.property
+ *(SORT_BY_ALIGNMENT(.note.gnu.property))
+
+.plt            0x0000000000004000        0x0
+ *(SORT_BY_ALIGNMENT(.plt))
+ .plt           0x0000000000004000        0x0 build/ldelf/start_a32.o
+
+.eh_frame
+ *(SORT_BY_ALIGNMENT(.eh_frame))
+
+.rodata         0x0000000000004000     0x103f
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.r.*))
+ *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*))
+ .rodata.dump_ta_state.str1.1
+                0x0000000000004000       0x49 build/ldelf/main.o
+ .rodata.ldelf.str1.1
+                0x0000000000004049       0x1b build/ldelf/main.o
+ .rodata.__func__.0
+                0x0000000000004064        0xe build/ldelf/main.o
+ .rodata.__func__.1
+                0x0000000000004072        0x6 build/ldelf/main.o
+ .rodata.__panic.str1.1
+                0x0000000000004078       0x22 build/ldelf/sys.o
+                                         0x23 (size before relaxing)
+ .rodata.trace_ext_prefix
+                0x000000000000409a        0x3 build/ldelf/sys.o
+                0x000000000000409a                trace_ext_prefix
+ .rodata.check_range.str1.1
+                0x000000000000409d       0x3e build/ldelf/ta_elf.o
+ .rodata.check_hashtab.str1.1
+                0x00000000000040db       0x35 build/ldelf/ta_elf.o
+ .rodata.add_segment.str1.1
+                0x0000000000004110       0x21 build/ldelf/ta_elf.o
+ .rodata.populate_segments.str1.1
+                0x0000000000004131       0xae build/ldelf/ta_elf.o
+ .rodata.ta_elf_add_bti.str1.1
+                0x00000000000041df        0xd build/ldelf/ta_elf.o
+ .rodata.init_elf.str1.1
+                0x00000000000041ec       0x72 build/ldelf/ta_elf.o
+ .rodata.copy_section_headers.str1.1
+                0x000000000000425e       0x33 build/ldelf/ta_elf.o
+ .rodata.close_handle.str1.1
+                0x0000000000004291       0x11 build/ldelf/ta_elf.o
+ .rodata.print_seg.str1.1
+                0x00000000000042a2       0x62 build/ldelf/ta_elf.o
+ .rodata.map_segments.str1.1
+                0x0000000000004304      0x1a0 build/ldelf/ta_elf.o
+ .rodata.check_phdr_in_range.constprop.0.str1.1
+                0x00000000000044a4       0x3d build/ldelf/ta_elf.o
+ .rodata.save_soname_from_segment.str1.1
+                0x00000000000044e1       0x17 build/ldelf/ta_elf.o
+ .rodata.save_symtab.str1.1
+                0x00000000000044f8      0x129 build/ldelf/ta_elf.o
+ .rodata.queue_elf.str1.1
+                0x0000000000004621       0x11 build/ldelf/ta_elf.o
+ .rodata.add_deps_from_segment.str1.1
+                0x0000000000004632       0x28 build/ldelf/ta_elf.o
+ .rodata.ta_elf_load_main.str1.1
+                0x000000000000465a       0x61 build/ldelf/ta_elf.o
+                                         0x70 (size before relaxing)
+ .rodata.ta_elf_load_dependency.str1.1
+                0x00000000000046bb       0x26 build/ldelf/ta_elf.o
+                                         0x29 (size before relaxing)
+ .rodata.ta_elf_print_mappings.str1.1
+                0x00000000000046e1       0x63 build/ldelf/ta_elf.o
+ .rodata.ta_elf_set_init_fini_info_compat.str1.1
+                0x0000000000004744       0x41 build/ldelf/ta_elf.o
+ .rodata.ta_elf_set_elf_phdr_info.str1.1
+                0x0000000000004785       0x36 build/ldelf/ta_elf.o
+ .rodata.ta_elf_finalize_load_main.str1.1
+                0x00000000000047bb       0x3a build/ldelf/ta_elf.o
+                                         0x47 (size before relaxing)
+ .rodata.__func__.0
+                0x00000000000047f5       0x13 build/ldelf/ta_elf.o
+ .rodata.__func__.1
+                0x0000000000004808       0x19 build/ldelf/ta_elf.o
+ .rodata.__func__.10
+                0x0000000000004821       0x1a build/ldelf/ta_elf.o
+ .rodata.__func__.11
+                0x000000000000483b        0xd build/ldelf/ta_elf.o
+ .rodata.__func__.12
+                0x0000000000004848       0x19 build/ldelf/ta_elf.o
+ .rodata.__func__.13
+                0x0000000000004861        0xe build/ldelf/ta_elf.o
+ .rodata.__func__.14
+                0x000000000000486f       0x1a build/ldelf/ta_elf.o
+ .rodata.__func__.15
+                0x0000000000004889       0x10 build/ldelf/ta_elf.o
+ .rodata.__func__.16
+                0x0000000000004899       0x10 build/ldelf/ta_elf.o
+ .rodata.__func__.17
+                0x00000000000048a9       0x15 build/ldelf/ta_elf.o
+ .rodata.__func__.18
+                0x00000000000048be        0xc build/ldelf/ta_elf.o
+ .rodata.__func__.19
+                0x00000000000048ca       0x14 build/ldelf/ta_elf.o
+ .rodata.__func__.2
+                0x00000000000048de       0x14 build/ldelf/ta_elf.o
+ .rodata.__func__.20
+                0x00000000000048f2       0x16 build/ldelf/ta_elf.o
+ .rodata.__func__.21
+                0x0000000000004908       0x19 build/ldelf/ta_elf.o
+ .rodata.__func__.22
+                0x0000000000004921       0x10 build/ldelf/ta_elf.o
+ .rodata.__func__.23
+                0x0000000000004931        0xc build/ldelf/ta_elf.o
+ .rodata.__func__.24
+                0x000000000000493d       0x12 build/ldelf/ta_elf.o
+ .rodata.__func__.26
+                0x000000000000494f        0xd build/ldelf/ta_elf.o
+ .rodata.__func__.27
+                0x000000000000495c        0x9 build/ldelf/ta_elf.o
+ .rodata.__func__.28
+                0x0000000000004965       0x14 build/ldelf/ta_elf.o
+ .rodata.__func__.29
+                0x0000000000004979        0xf build/ldelf/ta_elf.o
+ .rodata.__func__.3
+                0x0000000000004988        0x9 build/ldelf/ta_elf.o
+ .rodata.__func__.30
+                0x0000000000004991       0x11 build/ldelf/ta_elf.o
+ .rodata.__func__.31
+                0x00000000000049a2       0x12 build/ldelf/ta_elf.o
+ .rodata.__func__.32
+                0x00000000000049b4        0xa build/ldelf/ta_elf.o
+ .rodata.__func__.33
+                0x00000000000049be        0xa build/ldelf/ta_elf.o
+ .rodata.__func__.34
+                0x00000000000049c8       0x11 build/ldelf/ta_elf.o
+ .rodata.__func__.4
+                0x00000000000049d9       0x21 build/ldelf/ta_elf.o
+ .rodata.__func__.5
+                0x00000000000049fa       0x12 build/ldelf/ta_elf.o
+ .rodata.__func__.7
+                0x0000000000004a0c       0x16 build/ldelf/ta_elf.o
+ .rodata.__func__.8
+                0x0000000000004a22       0x19 build/ldelf/ta_elf.o
+ .rodata.__func__.9
+                0x0000000000004a3b       0x17 build/ldelf/ta_elf.o
+ .rodata.__resolve_sym.part.0.str1.1
+                0x0000000000004a52       0x50 build/ldelf/ta_elf_rel.o
+ .rodata.e32_get_sym_name.constprop.0.isra.0.str1.1
+                0x0000000000004aa2       0x32 build/ldelf/ta_elf_rel.o
+ .rodata.resolve_sym_helper.str1.1
+                0x0000000000004ad4       0x13 build/ldelf/ta_elf_rel.o
+ .rodata.resolve_sym.str1.1
+                0x0000000000004ae7       0x14 build/ldelf/ta_elf_rel.o
+ .rodata.ta_elf_relocate.str1.1
+                0x0000000000004afb      0x162 build/ldelf/ta_elf_rel.o
+                                        0x176 (size before relaxing)
+ .rodata.__func__.0
+                0x0000000000004c5d        0xd build/ldelf/ta_elf_rel.o
+ .rodata.__func__.1
+                0x0000000000004c6a       0x13 build/ldelf/ta_elf_rel.o
+ .rodata.__func__.2
+                0x0000000000004c7d        0xc build/ldelf/ta_elf_rel.o
+ .rodata.__func__.3
+                0x0000000000004c89       0x11 build/ldelf/ta_elf_rel.o
+ .rodata.__func__.4
+                0x0000000000004c9a        0xd build/ldelf/ta_elf_rel.o
+ .rodata.__func__.5
+                0x0000000000004ca7        0xe build/ldelf/ta_elf_rel.o
+ .rodata.__func__.6
+                0x0000000000004cb5       0x13 build/ldelf/ta_elf_rel.o
+ .rodata._assert_log.str1.1
+                0x0000000000004cc8       0x27 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .rodata.bget.str1.1
+                0x0000000000004cef      0x11e build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                        0x127 (size before relaxing)
+ .rodata.bgetz.str1.1
+                0x0000000000004e0d        0xe build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.brel.str1.1
+                0x0000000000004e1b      0x11c build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.bgetr.str1.1
+                0x0000000000004f37        0xa build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.bpool.str1.1
+                0x0000000000004f41       0x35 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.gen_malloc_add_pool.str1.1
+                0x0000000000004f76       0x20 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                         0x22 (size before relaxing)
+ .rodata.__func__.2
+                0x0000000000004f96       0x14 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.4
+                0x0000000000004faa        0x6 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.5
+                0x0000000000004fb0        0x5 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.6
+                0x0000000000004fb5        0x6 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.7
+                0x0000000000004fbb        0x6 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.__func__.8
+                0x0000000000004fc1        0x5 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .rodata.kprintf.constprop.0.str1.1
+                0x0000000000004fc6       0x38 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.HEXDIGITS
+                0x0000000000004ffe       0x11 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.hexdigits
+                0x000000000000500f       0x11 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .rodata.trace_vprintf.str1.1
+                0x0000000000005020       0x1a build/ldelf-lib/libutils/libutils.a(trace.o)
+                                         0x1b (size before relaxing)
+ .rodata.lvl_strs.0
+                0x000000000000503a        0x5 build/ldelf-lib/libutils/libutils.a(trace.o)
+
+.gnu.version_d  0x0000000000005040        0x0
+ .gnu.version_d
+                0x0000000000005040        0x0 build/ldelf/start_a32.o
+
+.gnu.version    0x0000000000005040        0x0
+ .gnu.version   0x0000000000005040        0x0 build/ldelf/start_a32.o
+
+.gnu.version_r  0x0000000000005040        0x0
+ .gnu.version_r
+                0x0000000000005040        0x0 build/ldelf/start_a32.o
+
+.gnu.hash       0x0000000000005040       0x18
+ .gnu.hash      0x0000000000005040       0x18 build/ldelf/start_a32.o
+
+.ARM.exidx
+ *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
+
+.ARM.extab
+ *(SORT_BY_ALIGNMENT(.ARM.extab*))
+
+.ctors
+ *(SORT_BY_ALIGNMENT(.ctors))
+
+.dtors
+ *(SORT_BY_ALIGNMENT(.dtors))
+
+.dynsym         0x0000000000005058       0x30
+ *(SORT_BY_ALIGNMENT(.dynsym))
+ .dynsym        0x0000000000005058       0x30 build/ldelf/start_a32.o
+
+.dynstr         0x0000000000005088        0x1
+ *(SORT_BY_ALIGNMENT(.dynstr))
+ .dynstr        0x0000000000005088        0x1 build/ldelf/start_a32.o
+
+.hash           0x000000000000508c       0x18
+ *(SORT_BY_ALIGNMENT(.hash))
+ .hash          0x000000000000508c       0x18 build/ldelf/start_a32.o
+                0x00000000000050a8                . = ALIGN (0x8)
+                0x00000000000050a8                __reloc_begin = .
+
+.rel.got        0x00000000000050a8       0x18
+ *(SORT_BY_ALIGNMENT(.rel.got))
+ .rel.got       0x00000000000050a8       0x18 build/ldelf/start_a32.o
+
+.rela.got
+ *(SORT_BY_ALIGNMENT(.rela.got))
+
+.rel.text
+ *(SORT_BY_ALIGNMENT(.rel.text))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.t*))
+
+.rela.text
+ *(SORT_BY_ALIGNMENT(.rela.text))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.t*))
+
+.rel.data
+ *(SORT_BY_ALIGNMENT(.rel.data))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.d*))
+
+.rela.data
+ *(SORT_BY_ALIGNMENT(.rela.data))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.d*))
+
+.rel.rodata
+ *(SORT_BY_ALIGNMENT(.rel.rodata))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.r*))
+
+.rela.rodata
+ *(SORT_BY_ALIGNMENT(.rela.rodata))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.r*))
+
+.rel.dyn        0x00000000000050c0       0x18
+ *(SORT_BY_ALIGNMENT(.rel.dyn))
+ .rel.data.rel.ro
+                0x00000000000050c0        0x0 build/ldelf/start_a32.o
+ .rel.iplt      0x00000000000050c0        0x0 build/ldelf/start_a32.o
+ .rel.text._ldelf_start
+                0x00000000000050c0        0x0 build/ldelf/start_a32.o
+ .rel.data.rel.local.main_elf_queue
+                0x00000000000050c0        0x8 build/ldelf/start_a32.o
+ .rel.data.rel.local.malloc_ctx
+                0x00000000000050c8       0x10 build/ldelf/start_a32.o
+
+.rela.dyn
+ *(SORT_BY_ALIGNMENT(.rela.dyn))
+
+.rel.ctors
+ *(SORT_BY_ALIGNMENT(.rel.ctors))
+
+.rela.ctors
+ *(SORT_BY_ALIGNMENT(.rela.ctors))
+
+.rel.dtors
+ *(SORT_BY_ALIGNMENT(.rel.dtors))
+
+.rela.dtors
+ *(SORT_BY_ALIGNMENT(.rela.dtors))
+
+.rel.init
+ *(SORT_BY_ALIGNMENT(.rel.init))
+
+.rela.init
+ *(SORT_BY_ALIGNMENT(.rela.init))
+
+.rel.fini
+ *(SORT_BY_ALIGNMENT(.rel.fini))
+
+.rela.fini
+ *(SORT_BY_ALIGNMENT(.rela.fini))
+
+.rel.bss        0x00000000000050d8        0x0
+ *(SORT_BY_ALIGNMENT(.rel.bss))
+ .rel.bss       0x00000000000050d8        0x0 build/ldelf/start_a32.o
+
+.rela.bss
+ *(SORT_BY_ALIGNMENT(.rela.bss))
+
+.rel.plt        0x00000000000050d8        0x0
+ *(SORT_BY_ALIGNMENT(.rel.plt))
+ .rel.plt       0x00000000000050d8        0x0 build/ldelf/start_a32.o
+
+.rela.plt
+ *(SORT_BY_ALIGNMENT(.rela.plt))
+                0x00000000000050d8                __reloc_end = .
+                0x0000000000006000                . = ALIGN (0x1000)
+
+.dynamic        0x0000000000006000       0x88
+ *(SORT_BY_ALIGNMENT(.dynamic))
+ .dynamic       0x0000000000006000       0x88 build/ldelf/start_a32.o
+                0x0000000000006000                _DYNAMIC
+
+.got            0x0000000000006088       0x18
+ *(SORT_BY_ALIGNMENT(.got.plt))
+ .got.plt       0x0000000000006088        0xc build/ldelf/start_a32.o
+                0x0000000000006088                _GLOBAL_OFFSET_TABLE_
+ *(SORT_BY_ALIGNMENT(.got))
+ .got           0x0000000000006094        0xc build/ldelf/start_a32.o
+
+.data           0x00000000000060a0       0x6c
+ *(SORT_BY_ALIGNMENT(.data) SORT_BY_ALIGNMENT(.data.*) SORT_BY_ALIGNMENT(.gnu.linkonce.d.*))
+ .data.trace_level
+                0x00000000000060a0        0x4 build/ldelf/sys.o
+                0x00000000000060a0                trace_level
+ .data.last_tls_mod_id.25
+                0x00000000000060a4        0x4 build/ldelf/ta_elf.o
+ .data.rel.local.main_elf_queue
+                0x00000000000060a8        0x8 build/ldelf/ta_elf.o
+                0x00000000000060a8                main_elf_queue
+ .data.rel.local.malloc_ctx
+                0x00000000000060b0       0x5c build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .data.rel.ro   0x000000000000610c        0x0 build/ldelf/start_a32.o
+
+.igot.plt       0x000000000000610c        0x0
+ .igot.plt      0x000000000000610c        0x0 build/ldelf/start_a32.o
+
+.bss            0x000000000000610c        0x8
+ *(SORT_BY_ALIGNMENT(.bss) SORT_BY_ALIGNMENT(.bss.*) SORT_BY_ALIGNMENT(.gnu.linkonce.b.*) SORT_BY_ALIGNMENT(COMMON))
+ .bss.mpool_base
+                0x000000000000610c        0x4 build/ldelf/main.o
+ .bss.ta_stack  0x0000000000006110        0x4 build/ldelf/ta_elf.o
+
+.dynbss         0x0000000000006114        0x0
+ .dynbss        0x0000000000006114        0x0 build/ldelf/start_a32.o
+
+/DISCARD/
+ *(SORT_BY_ALIGNMENT(.interp))
+LOAD build/ldelf/start_a32.o
+LOAD build/ldelf/syscalls_a32.o
+LOAD build/ldelf/dl.o
+LOAD build/ldelf/main.o
+LOAD build/ldelf/sys.o
+LOAD build/ldelf/ta_elf.o
+LOAD build/ldelf/ta_elf_rel.o
+START GROUP
+LOAD build/ldelf-lib/libunw/libunw.a
+LOAD build/ldelf-lib/libutee/libutee.a
+LOAD build/ldelf-lib/libutils/libutils.a
+END GROUP
+LOAD /opt/embedded/crosstools/arm-gnu-toolchain-11.3.rel1-x86_64-arm-none-linux-gnueabihf/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/libgcc.a
+OUTPUT(build/ldelf/ldelf.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x27 build/ldelf/start_a32.o
+ .ARM.attributes
+                0x0000000000000027       0x27 build/ldelf/syscalls_a32.o
+ .ARM.attributes
+                0x000000000000004e       0x33 build/ldelf/dl.o
+ .ARM.attributes
+                0x0000000000000081       0x33 build/ldelf/main.o
+ .ARM.attributes
+                0x00000000000000b4       0x33 build/ldelf/sys.o
+ .ARM.attributes
+                0x00000000000000e7       0x33 build/ldelf/ta_elf.o
+ .ARM.attributes
+                0x000000000000011a       0x33 build/ldelf/ta_elf_rel.o
+ .ARM.attributes
+                0x000000000000014d       0x33 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .ARM.attributes
+                0x0000000000000180       0x33 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .ARM.attributes
+                0x00000000000001b3       0x27 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .ARM.attributes
+                0x00000000000001da       0x33 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .ARM.attributes
+                0x000000000000020d       0x33 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .ARM.attributes
+                0x0000000000000240       0x33 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .ARM.attributes
+                0x0000000000000273       0x33 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .ARM.attributes
+                0x00000000000002a6       0x33 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .ARM.attributes
+                0x00000000000002d9       0x33 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .ARM.attributes
+                0x000000000000030c       0x33 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .ARM.attributes
+                0x000000000000033f       0x33 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .ARM.attributes
+                0x0000000000000372       0x33 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .ARM.attributes
+                0x00000000000003a5       0x33 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .ARM.attributes
+                0x00000000000003d8       0x27 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .ARM.attributes
+                0x00000000000003ff       0x33 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000432       0x33 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .ARM.attributes
+                0x0000000000000465       0x33 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .ARM.attributes
+                0x0000000000000498       0x33 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .ARM.attributes
+                0x00000000000004cb       0x33 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .ARM.attributes
+                0x00000000000004fe       0x33 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 build/ldelf/dl.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 build/ldelf/main.o
+ .comment       0x0000000000000033       0x34 build/ldelf/sys.o
+ .comment       0x0000000000000033       0x34 build/ldelf/ta_elf.o
+ .comment       0x0000000000000033       0x34 build/ldelf/ta_elf_rel.o
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .comment       0x0000000000000033       0x34 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf/dl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf/sys.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf/ta_elf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf/ta_elf_rel.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_line     0x0000000000000000     0x7fbf
+ .debug_line    0x0000000000000000       0x5f build/ldelf/start_a32.o
+ .debug_line    0x000000000000005f      0x11c build/ldelf/syscalls_a32.o
+ .debug_line    0x000000000000017b      0x2ee build/ldelf/dl.o
+ .debug_line    0x0000000000000469      0x451 build/ldelf/main.o
+ .debug_line    0x00000000000008ba      0x392 build/ldelf/sys.o
+ .debug_line    0x0000000000000c4c     0x2766 build/ldelf/ta_elf.o
+ .debug_line    0x00000000000033b2      0xa39 build/ldelf/ta_elf_rel.o
+ .debug_line    0x0000000000003deb      0x2bb build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_line    0x00000000000040a6      0x420 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_line    0x00000000000044c6      0x425 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .debug_line    0x00000000000048eb     0x1373 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_line    0x0000000000005c5e       0xae build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_line    0x0000000000005d0c      0x1b7 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_line    0x0000000000005ec3       0xa9 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_line    0x0000000000005f6c      0x1a0 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_line    0x000000000000610c      0x257 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_line    0x0000000000006363      0x185 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_line    0x00000000000064e8      0x18e build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_line    0x0000000000006676      0x19a build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_line    0x0000000000006810      0x188 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_line    0x0000000000006998       0x62 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_line    0x00000000000069fa      0x242 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_line    0x0000000000006c3c      0x8e9 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_line    0x0000000000007525      0x3fe build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_line    0x0000000000007923      0x199 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_line    0x0000000000007abc      0x183 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_line    0x0000000000007c3f      0x380 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_line_str
+                0x0000000000000000       0xc9
+ .debug_line_str
+                0x0000000000000000       0x57 build/ldelf/start_a32.o
+                                         0x63 (size before relaxing)
+ .debug_line_str
+                0x0000000000000057       0x57 build/ldelf/syscalls_a32.o
+                                         0x78 (size before relaxing)
+ .debug_line_str
+                0x0000000000000057       0x3d build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+                                         0x96 (size before relaxing)
+ .debug_line_str
+                0x0000000000000094       0x35 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                                         0x94 (size before relaxing)
+
+.debug_info     0x0000000000000000     0xc468
+ .debug_info    0x0000000000000000       0x24 build/ldelf/start_a32.o
+ .debug_info    0x0000000000000024       0x23 build/ldelf/syscalls_a32.o
+ .debug_info    0x0000000000000047      0x6f9 build/ldelf/dl.o
+ .debug_info    0x0000000000000740      0xc8d build/ldelf/main.o
+ .debug_info    0x00000000000013cd      0x82e build/ldelf/sys.o
+ .debug_info    0x0000000000001bfb     0x4e00 build/ldelf/ta_elf.o
+ .debug_info    0x00000000000069fb     0x176f build/ldelf/ta_elf_rel.o
+ .debug_info    0x000000000000816a      0x18c build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_info    0x00000000000082f6      0x3b3 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_info    0x00000000000086a9       0x23 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .debug_info    0x00000000000086cc     0x21af build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_info    0x000000000000a87b       0x5f build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_info    0x000000000000a8da      0x1e2 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_info    0x000000000000aabc       0x5f build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_info    0x000000000000ab1b       0xc3 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_info    0x000000000000abde      0x112 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_info    0x000000000000acf0       0xa7 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_info    0x000000000000ad97       0x88 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_info    0x000000000000ae1f       0xa0 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_info    0x000000000000aebf       0xa8 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_info    0x000000000000af67       0x23 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_info    0x000000000000af8a      0x30f build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_info    0x000000000000b299      0x809 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_info    0x000000000000baa2      0x56c build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_info    0x000000000000c00e       0xd3 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_info    0x000000000000c0e1       0x9a build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_info    0x000000000000c17b      0x2ed build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_abbrev   0x0000000000000000     0x2827
+ .debug_abbrev  0x0000000000000000       0x14 build/ldelf/start_a32.o
+ .debug_abbrev  0x0000000000000014       0x12 build/ldelf/syscalls_a32.o
+ .debug_abbrev  0x0000000000000026      0x187 build/ldelf/dl.o
+ .debug_abbrev  0x00000000000001ad      0x2ac build/ldelf/main.o
+ .debug_abbrev  0x0000000000000459      0x1cf build/ldelf/sys.o
+ .debug_abbrev  0x0000000000000628      0x6b0 build/ldelf/ta_elf.o
+ .debug_abbrev  0x0000000000000cd8      0x3fa build/ldelf/ta_elf_rel.o
+ .debug_abbrev  0x00000000000010d2       0xbc build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_abbrev  0x000000000000118e      0x1d3 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_abbrev  0x0000000000001361       0x12 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .debug_abbrev  0x0000000000001373      0x4f9 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_abbrev  0x000000000000186c       0x52 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_abbrev  0x00000000000018be      0x13c build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_abbrev  0x00000000000019fa       0x52 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_abbrev  0x0000000000001a4c       0x95 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_abbrev  0x0000000000001ae1       0xc6 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_abbrev  0x0000000000001ba7       0xa3 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_abbrev  0x0000000000001c4a       0x6f build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_abbrev  0x0000000000001cb9       0x84 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_abbrev  0x0000000000001d3d       0x92 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_abbrev  0x0000000000001dcf       0x12 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_abbrev  0x0000000000001de1      0x19d build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000001f7e      0x2ed build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_abbrev  0x000000000000226b      0x2c3 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_abbrev  0x000000000000252e       0xb4 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_abbrev  0x00000000000025e2       0x90 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_abbrev  0x0000000000002672      0x1b5 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_aranges  0x0000000000000000      0x880
+ .debug_aranges
+                0x0000000000000000       0x20 build/ldelf/start_a32.o
+ .debug_aranges
+                0x0000000000000020       0x80 build/ldelf/syscalls_a32.o
+ .debug_aranges
+                0x00000000000000a0       0x28 build/ldelf/dl.o
+ .debug_aranges
+                0x00000000000000c8       0x38 build/ldelf/main.o
+ .debug_aranges
+                0x0000000000000100       0x70 build/ldelf/sys.o
+ .debug_aranges
+                0x0000000000000170      0x118 build/ldelf/ta_elf.o
+ .debug_aranges
+                0x0000000000000288       0x50 build/ldelf/ta_elf_rel.o
+ .debug_aranges
+                0x00000000000002d8       0x28 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_aranges
+                0x0000000000000300       0x28 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_aranges
+                0x0000000000000328      0x1e0 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .debug_aranges
+                0x0000000000000508       0xf8 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_aranges
+                0x0000000000000600       0x20 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_aranges
+                0x0000000000000620       0x28 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_aranges
+                0x0000000000000648       0x20 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_aranges
+                0x0000000000000668       0x20 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_aranges
+                0x0000000000000688       0x20 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_aranges
+                0x00000000000006a8       0x20 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_aranges
+                0x00000000000006c8       0x20 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_aranges
+                0x00000000000006e8       0x20 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_aranges
+                0x0000000000000708       0x20 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_aranges
+                0x0000000000000728       0x28 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_aranges
+                0x0000000000000750       0x30 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_aranges
+                0x0000000000000780       0x40 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_aranges
+                0x00000000000007c0       0x40 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_aranges
+                0x0000000000000800       0x20 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_aranges
+                0x0000000000000820       0x20 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_aranges
+                0x0000000000000840       0x40 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_str      0x0000000000000000    0x14e38
+ .debug_str     0x0000000000000000       0x63 build/ldelf/start_a32.o
+ .debug_str     0x0000000000000063       0x15 build/ldelf/syscalls_a32.o
+                                         0x66 (size before relaxing)
+ .debug_str     0x0000000000000078     0xd87d build/ldelf/dl.o
+                                       0xdacc (size before relaxing)
+ .debug_str     0x000000000000d8f5      0x972 build/ldelf/main.o
+                                       0xe3f8 (size before relaxing)
+ .debug_str     0x000000000000e267      0x18d build/ldelf/sys.o
+                                       0xaa03 (size before relaxing)
+ .debug_str     0x000000000000e3f4     0x4eb3 build/ldelf/ta_elf.o
+                                      0x132e9 (size before relaxing)
+ .debug_str     0x00000000000132a7      0x1a9 build/ldelf/ta_elf_rel.o
+                                      0x122c9 (size before relaxing)
+ .debug_str     0x0000000000013450       0x9e build/ldelf-lib/libutee/libutee.a(assert.o)
+                                       0x9ee6 (size before relaxing)
+ .debug_str     0x00000000000134ee       0x76 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+                                       0x9eaa (size before relaxing)
+ .debug_str     0x0000000000013564       0x29 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+                                         0x7a (size before relaxing)
+ .debug_str     0x000000000001358d      0x713 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+                                       0x7518 (size before relaxing)
+ .debug_str     0x0000000000013ca0       0x46 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+                                       0x46a6 (size before relaxing)
+ .debug_str     0x0000000000013ce6       0x59 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+                                       0x4b84 (size before relaxing)
+ .debug_str     0x0000000000013d3f       0x44 build/ldelf-lib/libutils/libutils.a(tolower.o)
+                                       0x46a3 (size before relaxing)
+ .debug_str     0x0000000000013d83      0x26f build/ldelf-lib/libutils/libutils.a(memcmp.o)
+                                       0x4c3f (size before relaxing)
+ .debug_str     0x0000000000013ff2      0x1f5 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+                                       0x4ca1 (size before relaxing)
+ .debug_str     0x00000000000141e7      0x18e build/ldelf-lib/libutils/libutils.a(memset.o)
+                                       0x4c32 (size before relaxing)
+ .debug_str     0x0000000000014375       0x8a build/ldelf-lib/libutils/libutils.a(strcmp.o)
+                                       0x4e0a (size before relaxing)
+ .debug_str     0x00000000000143ff       0xda build/ldelf-lib/libutils/libutils.a(strcpy.o)
+                                       0x4e13 (size before relaxing)
+ .debug_str     0x00000000000144d9       0x62 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+                                       0x4bc0 (size before relaxing)
+ .debug_str     0x000000000001453b       0x35 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                                         0x86 (size before relaxing)
+ .debug_str     0x0000000000014570       0xc3 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+                                       0x4759 (size before relaxing)
+ .debug_str     0x0000000000014633      0x5b0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+                                       0x606a (size before relaxing)
+ .debug_str     0x0000000000014be3       0xf6 build/ldelf-lib/libutils/libutils.a(trace.o)
+                                       0x6c07 (size before relaxing)
+ .debug_str     0x0000000000014cd9       0xb6 build/ldelf-lib/libutils/libutils.a(memchr.o)
+                                       0x4e6d (size before relaxing)
+ .debug_str     0x0000000000014d8f       0x50 build/ldelf-lib/libutils/libutils.a(strlen.o)
+                                       0x4e0a (size before relaxing)
+ .debug_str     0x0000000000014ddf       0x59 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+                                       0xa328 (size before relaxing)
+
+.debug_rnglists
+                0x0000000000000000      0xc4f
+ .debug_rnglists
+                0x0000000000000000       0x5b build/ldelf/syscalls_a32.o
+ .debug_rnglists
+                0x000000000000005b       0x19 build/ldelf/dl.o
+ .debug_rnglists
+                0x0000000000000074       0x27 build/ldelf/main.o
+ .debug_rnglists
+                0x000000000000009b       0x50 build/ldelf/sys.o
+ .debug_rnglists
+                0x00000000000000eb      0x50f build/ldelf/ta_elf.o
+ .debug_rnglists
+                0x00000000000005fa      0x124 build/ldelf/ta_elf_rel.o
+ .debug_rnglists
+                0x000000000000071e       0x19 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_rnglists
+                0x0000000000000737       0x26 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_rnglists
+                0x000000000000075d      0x163 build/ldelf-lib/libutee/libutee.a(utee_syscalls_a32.o)
+ .debug_rnglists
+                0x00000000000008c0      0x1c1 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_rnglists
+                0x0000000000000a81       0x13 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_rnglists
+                0x0000000000000a94       0x19 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_rnglists
+                0x0000000000000aad       0x13 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_rnglists
+                0x0000000000000ac0       0x13 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_rnglists
+                0x0000000000000ad3       0x14 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_rnglists
+                0x0000000000000ae7       0x13 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_rnglists
+                0x0000000000000afa       0x13 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_rnglists
+                0x0000000000000b0d       0x13 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_rnglists
+                0x0000000000000b20       0x13 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_rnglists
+                0x0000000000000b33       0x19 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_rnglists
+                0x0000000000000b4c       0x30 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_rnglists
+                0x0000000000000b7c       0x38 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_rnglists
+                0x0000000000000bb4       0x4a build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_rnglists
+                0x0000000000000bfe       0x13 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_rnglists
+                0x0000000000000c11       0x13 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_rnglists
+                0x0000000000000c24       0x2b build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_loclists
+                0x0000000000000000     0x6fb1
+ .debug_loclists
+                0x0000000000000000       0xaf build/ldelf/dl.o
+ .debug_loclists
+                0x00000000000000af      0x116 build/ldelf/main.o
+ .debug_loclists
+                0x00000000000001c5      0x402 build/ldelf/sys.o
+ .debug_loclists
+                0x00000000000005c7     0x2acb build/ldelf/ta_elf.o
+ .debug_loclists
+                0x0000000000003092      0xade build/ldelf/ta_elf_rel.o
+ .debug_loclists
+                0x0000000000003b70       0x88 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_loclists
+                0x0000000000003bf8      0x22e build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_loclists
+                0x0000000000003e26     0x1b51 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_loclists
+                0x0000000000005977       0x32 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_loclists
+                0x00000000000059a9       0x95 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_loclists
+                0x0000000000005a3e       0x23 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_loclists
+                0x0000000000005a61       0xa1 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_loclists
+                0x0000000000005b02      0x244 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_loclists
+                0x0000000000005d46       0x47 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_loclists
+                0x0000000000005d8d       0x5a build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_loclists
+                0x0000000000005de7       0x3f build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_loclists
+                0x0000000000005e26       0x55 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_loclists
+                0x0000000000005e7b      0x289 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_loclists
+                0x0000000000006104      0xaaa build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_loclists
+                0x0000000000006bae      0x290 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_loclists
+                0x0000000000006e3e       0xc5 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_loclists
+                0x0000000000006f03       0x37 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_loclists
+                0x0000000000006f3a       0x77 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_macro    0x0000000000000000    0x1439e
+ .debug_macro   0x0000000000000000       0xfd build/ldelf/dl.o
+ .debug_macro   0x00000000000000fd      0xaf6 build/ldelf/dl.o
+ .debug_macro   0x0000000000000bf3      0x6b0 build/ldelf/dl.o
+ .debug_macro   0x00000000000012a3       0x7c build/ldelf/dl.o
+ .debug_macro   0x000000000000131f      0x16d build/ldelf/dl.o
+ .debug_macro   0x000000000000148c      0x1a7 build/ldelf/dl.o
+ .debug_macro   0x0000000000001633       0xc4 build/ldelf/dl.o
+ .debug_macro   0x00000000000016f7       0x22 build/ldelf/dl.o
+ .debug_macro   0x0000000000001719       0x2e build/ldelf/dl.o
+ .debug_macro   0x0000000000001747       0xf3 build/ldelf/dl.o
+ .debug_macro   0x000000000000183a      0x9b3 build/ldelf/dl.o
+ .debug_macro   0x00000000000021ed       0x35 build/ldelf/dl.o
+ .debug_macro   0x0000000000002222       0xf0 build/ldelf/dl.o
+ .debug_macro   0x0000000000002312       0x76 build/ldelf/dl.o
+ .debug_macro   0x0000000000002388       0xb2 build/ldelf/dl.o
+ .debug_macro   0x000000000000243a       0x16 build/ldelf/dl.o
+ .debug_macro   0x0000000000002450       0x58 build/ldelf/dl.o
+ .debug_macro   0x00000000000024a8      0x2e9 build/ldelf/dl.o
+ .debug_macro   0x0000000000002791      0x174 build/ldelf/main.o
+ .debug_macro   0x0000000000002905      0xaf6 build/ldelf/main.o
+ .debug_macro   0x00000000000033fb       0x34 build/ldelf/main.o
+ .debug_macro   0x000000000000342f       0x79 build/ldelf/main.o
+ .debug_macro   0x00000000000034a8       0x10 build/ldelf/main.o
+ .debug_macro   0x00000000000034b8       0x39 build/ldelf/main.o
+ .debug_macro   0x00000000000034f1       0x22 build/ldelf/main.o
+ .debug_macro   0x0000000000003513      0x106 build/ldelf/sys.o
+ .debug_macro   0x0000000000003619      0xaf6 build/ldelf/sys.o
+ .debug_macro   0x000000000000410f      0x22c build/ldelf/ta_elf.o
+ .debug_macro   0x000000000000433b      0xaf6 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000004e31       0x28 build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000004e59     0x15e6 build/ldelf/ta_elf.o
+ .debug_macro   0x000000000000643f       0x4a build/ldelf/ta_elf.o
+ .debug_macro   0x0000000000006489       0x5f build/ldelf/ta_elf.o
+ .debug_macro   0x00000000000064e8       0xdc build/ldelf/ta_elf.o
+ .debug_macro   0x00000000000065c4      0x180 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x0000000000006744      0xaf6 build/ldelf/ta_elf_rel.o
+ .debug_macro   0x000000000000723a       0x7c build/ldelf/ta_elf_rel.o
+ .debug_macro   0x00000000000072b6      0x106 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x00000000000073bc      0xaf6 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000007eb2       0x10 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_macro   0x0000000000007ec2       0xdf build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000007fa1      0xaf6 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_macro   0x0000000000008a97      0x153 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000008bea      0xaf6 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x00000000000096e0       0x16 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x00000000000096f6       0x10 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000009706       0x3c build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000009742       0x24 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_macro   0x0000000000009766      0xaf6 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_macro   0x000000000000a25c       0x4d build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000a2a9      0xaf6 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000ad9f       0x24 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_macro   0x000000000000adc3      0xaf6 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_macro   0x000000000000b8b9       0x51 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x000000000000b90a      0xaf6 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x000000000000c400       0x7c build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_macro   0x000000000000c47c       0x57 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x000000000000c4d3      0xaf0 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_macro   0x000000000000cfc3       0x51 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x000000000000d014      0xaf6 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_macro   0x000000000000db0a       0x54 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x000000000000db5e      0xaf6 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_macro   0x000000000000e654       0x54 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x000000000000e6a8      0xaf6 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_macro   0x000000000000f19e       0x45 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x000000000000f1e3      0xaf6 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_macro   0x000000000000fcd9       0x1a build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_macro   0x000000000000fcf3      0xaf6 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_macro   0x00000000000107e9      0x13d build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000010926      0xaf6 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_macro   0x000000000001141c       0xd6 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x00000000000114f2      0xaf6 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x0000000000011fe8       0xea build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_macro   0x00000000000120d2       0x66 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000012138      0xaf6 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_macro   0x0000000000012c2e       0x5a build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x0000000000012c88      0xaf6 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_macro   0x000000000001377e      0x12a build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+ .debug_macro   0x00000000000138a8      0xaf6 build/ldelf-lib/libutee/libutee.a(trace_ext.o)
+
+.debug_frame    0x0000000000000000      0xf50
+ .debug_frame   0x0000000000000000       0x64 build/ldelf/dl.o
+ .debug_frame   0x0000000000000064       0x70 build/ldelf/main.o
+ .debug_frame   0x00000000000000d4       0xf8 build/ldelf/sys.o
+ .debug_frame   0x00000000000001cc      0x4c8 build/ldelf/ta_elf.o
+ .debug_frame   0x0000000000000694      0x110 build/ldelf/ta_elf_rel.o
+ .debug_frame   0x00000000000007a4       0x40 build/ldelf-lib/libutee/libutee.a(assert.o)
+ .debug_frame   0x00000000000007e4       0x60 build/ldelf-lib/libutee/libutee.a(tee_uuid_from_str.o)
+ .debug_frame   0x0000000000000844      0x2c8 build/ldelf-lib/libutils/libutils.a(bget_malloc.o)
+ .debug_frame   0x0000000000000b0c       0x20 build/ldelf-lib/libutils/libutils.a(isxdigit.o)
+ .debug_frame   0x0000000000000b2c       0x58 build/ldelf-lib/libutils/libutils.a(snprintf.o)
+ .debug_frame   0x0000000000000b84       0x20 build/ldelf-lib/libutils/libutils.a(tolower.o)
+ .debug_frame   0x0000000000000ba4       0x28 build/ldelf-lib/libutils/libutils.a(memcmp.o)
+ .debug_frame   0x0000000000000bcc       0x34 build/ldelf-lib/libutils/libutils.a(memcpy.o)
+ .debug_frame   0x0000000000000c00       0x20 build/ldelf-lib/libutils/libutils.a(memset.o)
+ .debug_frame   0x0000000000000c20       0x20 build/ldelf-lib/libutils/libutils.a(strcmp.o)
+ .debug_frame   0x0000000000000c40       0x20 build/ldelf-lib/libutils/libutils.a(strcpy.o)
+ .debug_frame   0x0000000000000c60       0x28 build/ldelf-lib/libutils/libutils.a(strnlen.o)
+ .debug_frame   0x0000000000000c88       0x84 build/ldelf-lib/libutils/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_frame   0x0000000000000d0c       0xc0 build/ldelf-lib/libutils/libutils.a(snprintk.o)
+ .debug_frame   0x0000000000000dcc       0x90 build/ldelf-lib/libutils/libutils.a(trace.o)
+ .debug_frame   0x0000000000000e5c       0x28 build/ldelf-lib/libutils/libutils.a(memchr.o)
+ .debug_frame   0x0000000000000e84       0x20 build/ldelf-lib/libutils/libutils.a(strlen.o)
+ .debug_frame   0x0000000000000ea4       0xac build/ldelf-lib/libutee/libutee.a(trace_ext.o)

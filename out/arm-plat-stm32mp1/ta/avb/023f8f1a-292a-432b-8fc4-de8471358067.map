@@ -1,0 +1,1995 @@
+Archive member included to satisfy reference by file (symbol)
+
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+                              out/arm-plat-stm32mp1/ta/avb/entry.o (memset)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+                              out/arm-plat-stm32mp1/ta/avb/entry.o (strlen)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+                              out/arm-plat-stm32mp1/ta/avb/entry.o (trace_printf)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o) (snprintk)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o) (memchr)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o) (__aeabi_uldivmod)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o) (__ul_divmod)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o) (trace_ext_puts)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+                              out/arm-plat-stm32mp1/ta/avb/entry.o (TEE_MemMove)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+                              out/arm-plat-stm32mp1/ta/avb/entry.o (TEE_CloseObject)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o) (TEE_Panic)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o) (tee_map_zi)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o) (_utee_panic)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+                              out/arm-plat-stm32mp1/ta/avb/user_ta_header.o (__utee_entry)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o) (abort)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o) (_TEE_MathAPI_Init)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o) (__utee_tcb_init)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o) (_assert_log)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o) (mbedtls_mpi_mempool)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o) (mbedtls_platform_zeroize)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o) (malloc)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o) (vsnprintf)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o) (memcpy)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o) (memmove)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o) (mempool_alloc_pool)
+out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+                              out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o) (consttime_memcmp)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xdc out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x3a out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xdc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x76 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xdc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xdc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x76 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xdc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000     0x15e6 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x4a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000      0x2e9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x0000000000000000       0x76 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x9b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xdc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x124 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x12 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x124 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x12 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x1e out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xf3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x58 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x22 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x1a7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xc4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x2e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x39 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000      0x6be out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000      0x16d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.ta_head        0x0000000000000000       0x20
+ *(SORT_BY_ALIGNMENT(.ta_head))
+ .ta_head       0x0000000000000000       0x20 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                0x0000000000000000                ta_head
+
+.text           0x0000000000000020     0xe18a
+                0x0000000000000020                __text_start = .
+ *(SORT_BY_ALIGNMENT(.text) SORT_BY_ALIGNMENT(.text.*))
+ .text          0x0000000000000020      0x79c out/arm-plat-stm32mp1/ta/avb/entry.o
+                0x00000000000006c0                TA_CreateEntryPoint
+                0x00000000000006d0                TA_DestroyEntryPoint
+                0x00000000000006de                TA_OpenSessionEntryPoint
+                0x00000000000006f8                TA_CloseSessionEntryPoint
+                0x000000000000070c                TA_InvokeCommandEntryPoint
+ .text.__ta_entry
+                0x00000000000007bc        0x4 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+                0x00000000000007bc                __ta_entry
+ .text          0x00000000000007c0      0x44c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+                0x00000000000007c0                trace_set_level
+                0x0000000000000800                trace_get_level
+                0x00000000000008e0                trace_printf
+                0x0000000000000912                trace_vprintf
+                0x0000000000000bf0                dhex_dump
+ .text          0x0000000000000c0c      0xfec out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+                0x0000000000000c0c                snprintk
+                0x0000000000000c3c                vsnprintk
+                0x0000000000000c64                __vsnprintf
+                0x0000000000000cca                __vsprintf
+ .text.__aeabi_ldivmod
+                0x0000000000001bf8       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                0x0000000000001bf8                __aeabi_ldivmod
+ .text.__aeabi_uldivmod
+                0x0000000000001c10       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                0x0000000000001c10                __aeabi_uldivmod
+ .text          0x0000000000001c28      0x100 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+                0x0000000000001c28                trace_ext_puts
+                0x0000000000001c48                trace_ext_get_thread_id
+                0x0000000000001c5a                printf
+                0x0000000000001cc4                puts
+                0x0000000000001cf4                putchar
+ .text          0x0000000000001d28      0x914 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+                0x000000000000206e                TEE_OpenTASession
+                0x000000000000214a                TEE_CloseTASession
+                0x0000000000002176                TEE_InvokeTACommand
+                0x000000000000228a                TEE_GetCancellationFlag
+                0x00000000000022b8                TEE_UnmaskCancellation
+                0x00000000000022e8                TEE_MaskCancellation
+                0x0000000000002318                TEE_CheckMemoryAccessRights
+                0x0000000000002352                TEE_SetInstanceData
+                0x0000000000002374                TEE_GetInstanceData
+                0x000000000000238c                TEE_MemMove
+                0x00000000000023ac                TEE_MemCompare
+                0x00000000000023cc                TEE_MemFill
+                0x00000000000023ee                TEE_GetSystemTime
+                0x0000000000002414                TEE_Wait
+                0x0000000000002446                TEE_GetTAPersistentTime
+                0x00000000000024be                TEE_SetTAPersistentTime
+                0x00000000000024fe                TEE_GetREETime
+                0x0000000000002524                TEE_Malloc
+                0x0000000000002588                TEE_Realloc
+                0x00000000000025c6                TEE_Free
+                0x00000000000025e2                TEE_CacheClean
+                0x0000000000002600                TEE_CacheFlush
+                0x000000000000261e                TEE_CacheInvalidate
+ .text          0x000000000000263c      0x1dc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+                0x000000000000263c                TEE_Panic
+                0x00000000000026a8                __utee_check_outbuf_annotation
+                0x00000000000026f8                __utee_check_instring_annotation
+                0x0000000000002730                __utee_check_outstring_annotation
+                0x0000000000002780                __utee_check_out_annotation
+                0x00000000000027b0                __utee_check_attr_in_annotation
+                0x00000000000027e8                __utee_check_inout_annotation
+ .text          0x0000000000002818      0x2c0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+                0x0000000000002900                tee_map_zi
+                0x0000000000002988                tee_unmap
+                0x0000000000002a1c                tee_invoke_supp_plugin
+ .text          0x0000000000002ad8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .text._utee_panic
+                0x0000000000002ad8       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ad8                _utee_panic
+ .text._utee_return
+                0x0000000000002aec       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002aec                _utee_return
+ .text._utee_log
+                0x0000000000002b00       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b00                _utee_log
+ .text.__utee_panic
+                0x0000000000002b14       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b14                __utee_panic
+ .text._utee_get_property
+                0x0000000000002b28       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b28                _utee_get_property
+ .text._utee_get_property_name_to_index
+                0x0000000000002b40       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b40                _utee_get_property_name_to_index
+ .text._utee_open_ta_session
+                0x0000000000002b54       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b54                _utee_open_ta_session
+ .text._utee_close_ta_session
+                0x0000000000002b6c       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b6c                _utee_close_ta_session
+ .text._utee_invoke_ta_command
+                0x0000000000002b80       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b80                _utee_invoke_ta_command
+ .text._utee_get_cancellation_flag
+                0x0000000000002b98       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002b98                _utee_get_cancellation_flag
+ .text._utee_check_access_rights
+                0x0000000000002bac       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002bac                _utee_check_access_rights
+ .text._utee_unmask_cancellation
+                0x0000000000002bc0       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002bc0                _utee_unmask_cancellation
+ .text._utee_mask_cancellation
+                0x0000000000002bd4       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002bd4                _utee_mask_cancellation
+ .text._utee_wait
+                0x0000000000002be8       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002be8                _utee_wait
+ .text._utee_get_time
+                0x0000000000002bfc       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002bfc                _utee_get_time
+ .text._utee_set_ta_time
+                0x0000000000002c10       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c10                _utee_set_ta_time
+ .text._utee_cryp_state_alloc
+                0x0000000000002c24       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c24                _utee_cryp_state_alloc
+ .text._utee_cryp_state_copy
+                0x0000000000002c3c       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c3c                _utee_cryp_state_copy
+ .text._utee_cryp_state_free
+                0x0000000000002c50       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c50                _utee_cryp_state_free
+ .text._utee_hash_init
+                0x0000000000002c64       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c64                _utee_hash_init
+ .text._utee_hash_update
+                0x0000000000002c78       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c78                _utee_hash_update
+ .text._utee_hash_final
+                0x0000000000002c8c       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002c8c                _utee_hash_final
+ .text._utee_cipher_init
+                0x0000000000002ca4       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ca4                _utee_cipher_init
+ .text._utee_cipher_update
+                0x0000000000002cb8       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002cb8                _utee_cipher_update
+ .text._utee_cipher_final
+                0x0000000000002cd0       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002cd0                _utee_cipher_final
+ .text._utee_cryp_obj_get_info
+                0x0000000000002ce8       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ce8                _utee_cryp_obj_get_info
+ .text._utee_cryp_obj_restrict_usage
+                0x0000000000002cfc       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002cfc                _utee_cryp_obj_restrict_usage
+ .text._utee_cryp_obj_get_attr
+                0x0000000000002d10       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d10                _utee_cryp_obj_get_attr
+ .text._utee_cryp_obj_alloc
+                0x0000000000002d24       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d24                _utee_cryp_obj_alloc
+ .text._utee_cryp_obj_close
+                0x0000000000002d38       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d38                _utee_cryp_obj_close
+ .text._utee_cryp_obj_reset
+                0x0000000000002d4c       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d4c                _utee_cryp_obj_reset
+ .text._utee_cryp_obj_populate
+                0x0000000000002d60       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d60                _utee_cryp_obj_populate
+ .text._utee_cryp_obj_copy
+                0x0000000000002d74       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d74                _utee_cryp_obj_copy
+ .text._utee_cryp_derive_key
+                0x0000000000002d88       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d88                _utee_cryp_derive_key
+ .text._utee_cryp_random_number_generate
+                0x0000000000002d9c       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002d9c                _utee_cryp_random_number_generate
+ .text._utee_authenc_init
+                0x0000000000002db0       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002db0                _utee_authenc_init
+ .text._utee_authenc_update_aad
+                0x0000000000002dc8       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002dc8                _utee_authenc_update_aad
+ .text._utee_authenc_update_payload
+                0x0000000000002ddc       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ddc                _utee_authenc_update_payload
+ .text._utee_authenc_enc_final
+                0x0000000000002df4       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002df4                _utee_authenc_enc_final
+ .text._utee_authenc_dec_final
+                0x0000000000002e0c       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e0c                _utee_authenc_dec_final
+ .text._utee_asymm_operate
+                0x0000000000002e24       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e24                _utee_asymm_operate
+ .text._utee_asymm_verify
+                0x0000000000002e3c       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e3c                _utee_asymm_verify
+ .text._utee_storage_obj_open
+                0x0000000000002e54       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e54                _utee_storage_obj_open
+ .text._utee_storage_obj_create
+                0x0000000000002e6c       0x18 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e6c                _utee_storage_obj_create
+ .text._utee_storage_obj_del
+                0x0000000000002e84       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e84                _utee_storage_obj_del
+ .text._utee_storage_obj_rename
+                0x0000000000002e98       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002e98                _utee_storage_obj_rename
+ .text._utee_storage_alloc_enum
+                0x0000000000002eac       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002eac                _utee_storage_alloc_enum
+ .text._utee_storage_free_enum
+                0x0000000000002ec0       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ec0                _utee_storage_free_enum
+ .text._utee_storage_reset_enum
+                0x0000000000002ed4       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ed4                _utee_storage_reset_enum
+ .text._utee_storage_start_enum
+                0x0000000000002ee8       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002ee8                _utee_storage_start_enum
+ .text._utee_storage_next_enum
+                0x0000000000002efc       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002efc                _utee_storage_next_enum
+ .text._utee_storage_obj_read
+                0x0000000000002f10       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002f10                _utee_storage_obj_read
+ .text._utee_storage_obj_write
+                0x0000000000002f24       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002f24                _utee_storage_obj_write
+ .text._utee_storage_obj_trunc
+                0x0000000000002f38       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002f38                _utee_storage_obj_trunc
+ .text._utee_storage_obj_seek
+                0x0000000000002f4c       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002f4c                _utee_storage_obj_seek
+ .text._utee_cryp_obj_generate_key
+                0x0000000000002f60       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002f60                _utee_cryp_obj_generate_key
+ .text._utee_cache_operation
+                0x0000000000002f74       0x14 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                0x0000000000002f74                _utee_cache_operation
+ .text          0x0000000000002f88      0x908 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+                0x0000000000003126                __utee_call_elf_init_fn
+                0x00000000000032a8                __utee_call_elf_fini_fn
+                0x0000000000003822                __utee_entry
+ .text          0x0000000000003890       0x1c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+                0x0000000000003890                abort
+ .text          0x00000000000038ac     0x1c48 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+                0x0000000000003904                _TEE_MathAPI_Init
+                0x0000000000003a6c                TEE_BigIntInit
+                0x0000000000003ac8                TEE_BigIntConvertFromOctetString
+                0x0000000000003b3a                TEE_BigIntConvertToOctetString
+                0x0000000000003bb8                TEE_BigIntConvertFromS32
+                0x0000000000003c30                TEE_BigIntConvertToS32
+                0x0000000000003cf0                TEE_BigIntCmp
+                0x0000000000003d42                TEE_BigIntCmpS32
+                0x0000000000003d7a                TEE_BigIntShiftRight
+                0x0000000000003f20                TEE_BigIntGetBit
+                0x0000000000003f62                TEE_BigIntGetBitCount
+                0x000000000000420c                TEE_BigIntAdd
+                0x000000000000423c                TEE_BigIntSub
+                0x000000000000426c                TEE_BigIntNeg
+                0x0000000000004318                TEE_BigIntMul
+                0x00000000000043d4                TEE_BigIntSquare
+                0x00000000000043f0                TEE_BigIntDiv
+                0x0000000000004558                TEE_BigIntMod
+                0x00000000000045b0                TEE_BigIntAddMod
+                0x00000000000045e4                TEE_BigIntSubMod
+                0x0000000000004618                TEE_BigIntMulMod
+                0x000000000000464c                TEE_BigIntSquareMod
+                0x000000000000466c                TEE_BigIntInvMod
+                0x0000000000004770                TEE_BigIntRelativePrime
+                0x0000000000004fe0                TEE_BigIntComputeExtendedGcd
+                0x0000000000005282                TEE_BigIntIsProbablePrime
+                0x00000000000052cc                TEE_BigIntInitFMM
+                0x00000000000052e6                TEE_BigIntInitFMMContext
+                0x00000000000052fe                TEE_BigIntFMMSizeInU32
+                0x000000000000531a                TEE_BigIntFMMContextSizeInU32
+                0x0000000000005330                TEE_BigIntConvertToFMM
+                0x0000000000005350                TEE_BigIntConvertFromFMM
+                0x00000000000053e8                TEE_BigIntComputeFMM
+ .text          0x00000000000054f4      0x3b4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+                0x00000000000054f4                __utee_tcb_init
+                0x00000000000057a4                __tls_get_addr
+                0x00000000000057d4                dl_iterate_phdr
+ .text          0x00000000000058a8       0x4c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+                0x00000000000058a8                _assert_log
+                0x00000000000058e4                _assert_break
+ .text          0x00000000000058f4     0x5bb0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+                0x0000000000005942                mbedtls_mpi_init
+                0x000000000000595a                mbedtls_mpi_init_mempool
+                0x0000000000005990                mbedtls_mpi_free
+                0x0000000000005a08                mbedtls_mpi_grow
+                0x0000000000005af4                mbedtls_mpi_shrink
+                0x0000000000005c7a                mbedtls_mpi_copy
+                0x0000000000005d4e                mbedtls_mpi_swap
+                0x0000000000005e2a                mbedtls_mpi_safe_cond_assign
+                0x0000000000005eda                mbedtls_mpi_safe_cond_swap
+                0x0000000000005ffe                mbedtls_mpi_lset
+                0x000000000000605c                mbedtls_mpi_get_bit
+                0x000000000000609e                mbedtls_mpi_set_bit
+                0x0000000000006148                mbedtls_mpi_lsb
+                0x00000000000061f0                mbedtls_mpi_bitlen
+                0x0000000000006258                mbedtls_mpi_size
+                0x00000000000062e8                mbedtls_mpi_read_string
+                0x000000000000655a                mbedtls_mpi_write_string
+                0x00000000000067da                mbedtls_mpi_read_binary_le
+                0x0000000000006866                mbedtls_mpi_read_binary
+                0x00000000000068e0                mbedtls_mpi_write_binary_le
+                0x000000000000699e                mbedtls_mpi_write_binary
+                0x0000000000006a66                mbedtls_mpi_shift_l
+                0x0000000000006bb0                mbedtls_mpi_shift_r
+                0x0000000000006ce6                mbedtls_mpi_cmp_abs
+                0x0000000000006dea                mbedtls_mpi_cmp_mpi
+                0x0000000000006f70                mbedtls_mpi_lt_mpi_ct
+                0x000000000000707e                mbedtls_mpi_cmp_int
+                0x00000000000070c2                mbedtls_mpi_add_abs
+                0x00000000000072b8                mbedtls_mpi_sub_abs
+                0x00000000000073f6                mbedtls_mpi_add_mpi
+                0x0000000000007490                mbedtls_mpi_sub_mpi
+                0x000000000000752a                mbedtls_mpi_add_int
+                0x0000000000007572                mbedtls_mpi_sub_int
+                0x0000000000008eb8                mbedtls_mpi_mul_mpi
+                0x0000000000009044                mbedtls_mpi_mul_int
+                0x0000000000009188                mbedtls_mpi_div_mpi
+                0x00000000000096c4                mbedtls_mpi_div_int
+                0x000000000000970e                mbedtls_mpi_mod_mpi
+                0x0000000000009798                mbedtls_mpi_mod_int
+                0x00000000000098ea                mbedtls_mpi_montg_init
+                0x0000000000009a18                mbedtls_mpi_montmul
+                0x0000000000009a7c                mbedtls_mpi_montred
+                0x0000000000009b30                mbedtls_mpi_exp_mod
+                0x000000000000a158                mbedtls_mpi_gcd
+                0x000000000000a3a8                mbedtls_mpi_fill_random
+                0x000000000000a406                mbedtls_mpi_random
+                0x000000000000a53a                mbedtls_mpi_inv_mod
+                0x000000000000ac9a                mbedtls_mpi_is_prime_ext
+                0x000000000000ad36                mbedtls_mpi_is_prime
+                0x000000000000ad58                mbedtls_mpi_gen_prime
+                0x000000000000b010                mbedtls_mpi_self_test
+ .text          0x000000000000b4a4       0x2c out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+                0x000000000000b4a4                mbedtls_platform_zeroize
+ .text          0x000000000000b4d0     0x148c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+                0x000000000000b5b6                bget
+                0x000000000000b908                bgetz
+                0x000000000000b9a0                bgetr
+                0x000000000000ba54                brel
+                0x000000000000bd64                bpool
+                0x000000000000be54                bstats
+                0x000000000000bfd0                malloc_reset_stats
+                0x000000000000c022                malloc_get_stats
+                0x000000000000c1b0                raw_memalign
+                0x000000000000c23a                raw_malloc
+                0x000000000000c262                raw_free
+                0x000000000000c290                raw_calloc
+                0x000000000000c33a                raw_realloc
+                0x000000000000c424                malloc
+                0x000000000000c4b4                calloc
+                0x000000000000c526                realloc
+                0x000000000000c570                memalign
+                0x000000000000c5de                free
+                0x000000000000c5f6                free_wipe
+                0x000000000000c878                raw_malloc_get_ctx_size
+                0x000000000000c888                raw_malloc_init_ctx
+                0x000000000000c8ae                raw_malloc_add_pool
+                0x000000000000c8cc                raw_malloc_get_stats
+                0x000000000000c8e6                malloc_add_pool
+                0x000000000000c90c                malloc_buffer_is_within_alloced
+                0x000000000000c934                malloc_buffer_overlaps_heap
+ .text          0x000000000000c95c      0x1fc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+                0x000000000000ca04                mempool_alloc_pool
+                0x000000000000ca6c                mempool_alloc
+                0x000000000000cacc                mempool_calloc
+                0x000000000000cb30                mempool_free
+ .text          0x000000000000cb58       0x32 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                0x000000000000cb58                __ta_entry_c
+                0x000000000000cb7a                tahead_get_trace_level
+ .text          0x000000000000cb8a       0xf4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+                0x000000000000cb8a                memset
+ .text          0x000000000000cc7e       0x78 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+                0x000000000000cc7e                strlen
+ .text          0x000000000000ccf6       0xea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+                0x000000000000ccf6                memchr
+ .text          0x000000000000cde0      0x288 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+                0x000000000000cf46                __ul_divmod
+                0x000000000000cfa4                __l_divmod
+ .text          0x000000000000d068      0xe76 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+                0x000000000000d068                __utee_from_attr
+                0x000000000000d162                TEE_GetObjectInfo
+                0x000000000000d1be                TEE_GetObjectInfo1
+                0x000000000000d202                TEE_RestrictObjectUsage
+                0x000000000000d248                TEE_RestrictObjectUsage1
+                0x000000000000d28c                TEE_GetObjectBufferAttribute
+                0x000000000000d33c                TEE_GetObjectValueAttribute
+                0x000000000000d41c                TEE_CloseObject
+                0x000000000000d44a                TEE_AllocateTransientObject
+                0x000000000000d4aa                TEE_FreeTransientObject
+                0x000000000000d504                TEE_ResetTransientObject
+                0x000000000000d55e                TEE_PopulateTransientObject
+                0x000000000000d678                TEE_InitRefAttribute
+                0x000000000000d6b8                TEE_InitValueAttribute
+                0x000000000000d6f8                TEE_CopyObjectAttributes
+                0x000000000000d73e                TEE_CopyObjectAttributes1
+                0x000000000000d7e8                TEE_GenerateKey
+                0x000000000000d8c8                TEE_OpenPersistentObject
+                0x000000000000d972                TEE_CreatePersistentObject
+                0x000000000000da36                TEE_CloseAndDeletePersistentObject
+                0x000000000000da62                TEE_CloseAndDeletePersistentObject1
+                0x000000000000daa0                TEE_RenamePersistentObject
+                0x000000000000db04                TEE_AllocatePersistentObjectEnumerator
+                0x000000000000db54                TEE_FreePersistentObjectEnumerator
+                0x000000000000db82                TEE_ResetPersistentObjectEnumerator
+                0x000000000000dbb0                TEE_StartPersistentObjectEnumerator
+                0x000000000000dc00                TEE_GetNextPersistentObject
+                0x000000000000dca6                TEE_ReadObjectData
+                0x000000000000dd20                TEE_WriteObjectData
+                0x000000000000dd94                TEE_TruncateObjectData
+                0x000000000000ddf6                TEE_SeekObjectData
+ .text          0x000000000000dede       0x5c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+                0x000000000000dede                snprintf
+                0x000000000000df12                vsnprintf
+ .text          0x000000000000df3a       0xce out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+                0x000000000000df3a                memcpy
+ .text          0x000000000000e008      0x114 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+                0x000000000000e008                memmove
+ .text          0x000000000000e11c       0x8e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+                0x000000000000e11c                consttime_memcmp
+ .text          0x000000000000e1aa        0x0 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .text          0x000000000000e1aa        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ *(SORT_BY_ALIGNMENT(.stub))
+ *(SORT_BY_ALIGNMENT(.glue_7))
+ .glue_7        0x000000000000e1aa        0x0 linker stubs
+ *(SORT_BY_ALIGNMENT(.glue_7t))
+ .glue_7t       0x000000000000e1aa        0x0 linker stubs
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.t.*))
+ *(SORT_BY_ALIGNMENT(.vfp11_veneer))
+ .vfp11_veneer  0x000000000000e1aa        0x0 linker stubs
+                0x000000000000e1aa                __text_end = .
+
+.v4_bx          0x000000000000e1ac        0x0
+ .v4_bx         0x000000000000e1ac        0x0 linker stubs
+
+.iplt           0x000000000000e1ac        0x0
+ .iplt          0x000000000000e1ac        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.note.gnu.property
+ *(SORT_BY_ALIGNMENT(.note.gnu.property))
+
+.plt            0x000000000000e1ac        0x0
+ *(SORT_BY_ALIGNMENT(.plt))
+ .plt           0x000000000000e1ac        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.eh_frame_hdr
+ *(SORT_BY_ALIGNMENT(.eh_frame_hdr))
+ *(SORT_BY_ALIGNMENT(.eh_frame_entry) SORT_BY_ALIGNMENT(.eh_frame_entry.*))
+
+.eh_frame
+ *(SORT_BY_ALIGNMENT(.eh_frame))
+ *(SORT_BY_ALIGNMENT(.eh_frame.*))
+
+.gcc_except_table
+ *(SORT_BY_ALIGNMENT(.gcc_except_table) SORT_BY_ALIGNMENT(.gcc_except_table.*))
+
+.rodata         0x000000000000e1ac     0x1236
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.r.*))
+ *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*))
+ .rodata.ta/avb/entry.c
+                0x000000000000e1ac      0x10b out/arm-plat-stm32mp1/ta/avb/entry.o
+ *fill*         0x000000000000e2b7        0x1 
+ .rodata.out/arm-plat-stm32mp1/export-ta_arm32/src/user_ta_header.c
+                0x000000000000e2b8       0xd4 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                0x000000000000e2b8                trace_ext_prefix
+                0x000000000000e2bc                ta_heap_size
+                0x000000000000e388                ta_num_props
+ .rodata.lib/libutils/ext/trace.c
+                0x000000000000e38c       0x29 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ *fill*         0x000000000000e3b5        0x3 
+ .rodata.lib/libutils/ext/snprintk.c
+                0x000000000000e3b8       0x7d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ *fill*         0x000000000000e435        0x3 
+ .rodata.lib/libutee/trace_ext.c
+                0x000000000000e438        0x2 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ *fill*         0x000000000000e43a        0x2 
+ .rodata.lib/libutee/tee_api.c
+                0x000000000000e43c       0x1f out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ *fill*         0x000000000000e45b        0x1 
+ .rodata.lib/libutee/tee_api_panic.c
+                0x000000000000e45c       0x68 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .rodata.lib/libutee/tee_system_pta.c
+                0x000000000000e4c4       0x8b out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ *fill*         0x000000000000e54f        0x1 
+ .rodata.lib/libutee/arch/arm/user_ta_entry.c
+                0x000000000000e550       0x32 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ *fill*         0x000000000000e582        0x2 
+ .rodata.lib/libutee/abort.c
+                0x000000000000e584        0x7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ *fill*         0x000000000000e58b        0x1 
+ .rodata.lib/libutee/tee_api_arith_mpi.c
+                0x000000000000e58c      0x221 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ *fill*         0x000000000000e7ad        0x3 
+ .rodata.lib/libutee/arch/arm/tcb.c
+                0x000000000000e7b0       0xbc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .rodata.lib/libutee/assert.c
+                0x000000000000e86c       0x27 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ *fill*         0x000000000000e893        0x1 
+ .rodata.lib/libmbedtls/mbedtls/library/bignum.c
+                0x000000000000e894      0x742 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ *fill*         0x000000000000efd6        0x2 
+ .rodata.lib/libutils/isoc/bget_malloc.c
+                0x000000000000efd8      0x350 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .rodata.lib/libutils/ext/mempool.c
+                0x000000000000f328       0xba out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+
+.gnu.version_d  0x000000000000f3e4        0x0
+ .gnu.version_d
+                0x000000000000f3e4        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.gnu.version    0x000000000000f3e2        0x0
+ .gnu.version   0x000000000000f3e2        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.gnu.version_r  0x000000000000f3e4        0x0
+ .gnu.version_r
+                0x000000000000f3e4        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.gnu.hash       0x000000000000f3e4       0x2c
+ .gnu.hash      0x000000000000f3e4       0x2c out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.ARM.extab
+ *(SORT_BY_ALIGNMENT(.ARM.extab*) SORT_BY_ALIGNMENT(.gnu.linkonce.armextab.*))
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx
+ *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.ctors
+ *(SORT_BY_ALIGNMENT(.ctors))
+
+.dtors
+ *(SORT_BY_ALIGNMENT(.dtors))
+
+.dynsym         0x000000000000f410       0x60
+ *(SORT_BY_ALIGNMENT(.dynsym))
+ .dynsym        0x000000000000f410       0x60 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.dynstr         0x000000000000f470       0x2e
+ *(SORT_BY_ALIGNMENT(.dynstr))
+ .dynstr        0x000000000000f470       0x2e out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.hash           0x000000000000f4a0       0x2c
+ *(SORT_BY_ALIGNMENT(.hash))
+ .hash          0x000000000000f4a0       0x2c out/arm-plat-stm32mp1/ta/avb/entry.o
+                0x0000000000010000                . = ALIGN (0x1000)
+
+.dynamic        0x0000000000010000       0x88
+ *(SORT_BY_ALIGNMENT(.dynamic))
+ .dynamic       0x0000000000010000       0x88 out/arm-plat-stm32mp1/ta/avb/entry.o
+                0x0000000000010000                _DYNAMIC
+
+.tdata
+ *(SORT_BY_ALIGNMENT(.tdata) SORT_BY_ALIGNMENT(.tdata.*) SORT_BY_ALIGNMENT(.gnu.linkonce.td.*))
+
+.tbss
+ *(SORT_BY_ALIGNMENT(.tbss) SORT_BY_ALIGNMENT(.tbss.*) SORT_BY_ALIGNMENT(.gnu.linkonce.tb.*))
+ *(SORT_BY_ALIGNMENT(.tcommon))
+
+.got            0x0000000000010088       0x40
+ *(SORT_BY_ALIGNMENT(.got.plt))
+ .got.plt       0x0000000000010088        0xc out/arm-plat-stm32mp1/ta/avb/entry.o
+                0x0000000000010088                _GLOBAL_OFFSET_TABLE_
+ *(SORT_BY_ALIGNMENT(.got))
+ .got           0x0000000000010094       0x34 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.rel.text
+ *(SORT_BY_ALIGNMENT(.rel.text))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.t*))
+
+.rela.text
+ *(SORT_BY_ALIGNMENT(.rela.text))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.t*))
+
+.rel.data
+ *(SORT_BY_ALIGNMENT(.rel.data))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.d*))
+
+.rela.data
+ *(SORT_BY_ALIGNMENT(.rela.data))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.d*))
+
+.rel.tdata
+ *(SORT_BY_ALIGNMENT(.rel.tdata) SORT_BY_ALIGNMENT(.rel.tdata.*) SORT_BY_ALIGNMENT(.rel.gnu.linkonce.td.*))
+
+.rela.tdata
+ *(SORT_BY_ALIGNMENT(.rela.tdata) SORT_BY_ALIGNMENT(.rela.tdata.*) SORT_BY_ALIGNMENT(.rela.gnu.linkonce.td.*))
+
+.rel.tbss
+ *(SORT_BY_ALIGNMENT(.rel.tbss) SORT_BY_ALIGNMENT(.rel.tbss.*) SORT_BY_ALIGNMENT(.rel.gnu.linkonce.tb.*))
+
+.rela.tbss
+ *(SORT_BY_ALIGNMENT(.rela.tbss) SORT_BY_ALIGNMENT(.rela.tbss.*) SORT_BY_ALIGNMENT(.rela.gnu.linkonce.tb.*))
+
+.rel.rodata
+ *(SORT_BY_ALIGNMENT(.rel.rodata))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.r*))
+
+.rela.rodata
+ *(SORT_BY_ALIGNMENT(.rela.rodata))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.r*))
+
+.rel.dyn        0x00000000000100c8       0xa0
+ *(SORT_BY_ALIGNMENT(.rel.dyn))
+ .rel.data.rel.ro
+                0x00000000000100c8        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .rel.iplt      0x00000000000100c8        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .rel.data.rel.local
+                0x00000000000100c8       0x28 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .rel.data.rel.ro.local
+                0x00000000000100f0       0x70 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .rel.data.rel  0x0000000000010160        0x8 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.rel.got        0x0000000000010168       0x68
+ *(SORT_BY_ALIGNMENT(.rel.got))
+ .rel.got       0x0000000000010168       0x68 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.rela.got
+ *(SORT_BY_ALIGNMENT(.rela.got))
+
+.rel.ctors
+ *(SORT_BY_ALIGNMENT(.rel.ctors))
+
+.rela.ctors
+ *(SORT_BY_ALIGNMENT(.rela.ctors))
+
+.rel.dtors
+ *(SORT_BY_ALIGNMENT(.rel.dtors))
+
+.rela.dtors
+ *(SORT_BY_ALIGNMENT(.rela.dtors))
+
+.rel.init
+ *(SORT_BY_ALIGNMENT(.rel.init))
+
+.rela.init
+ *(SORT_BY_ALIGNMENT(.rela.init))
+
+.rel.fini
+ *(SORT_BY_ALIGNMENT(.rel.fini))
+
+.rela.fini
+ *(SORT_BY_ALIGNMENT(.rela.fini))
+
+.rel.bss        0x00000000000101d0        0x0
+ *(SORT_BY_ALIGNMENT(.rel.bss))
+ .rel.bss       0x00000000000101d0        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.rela.bss
+ *(SORT_BY_ALIGNMENT(.rela.bss))
+
+.rel.plt        0x00000000000101d0        0x0
+ *(SORT_BY_ALIGNMENT(.rel.plt))
+ .rel.plt       0x00000000000101d0        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.rela.plt
+ *(SORT_BY_ALIGNMENT(.rela.plt))
+
+.data           0x00000000000101d0       0xcc
+ *(SORT_BY_ALIGNMENT(.data) SORT_BY_ALIGNMENT(.data.*) SORT_BY_ALIGNMENT(.gnu.linkonce.d.*))
+ .data.rel.local
+                0x00000000000101d0        0x4 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .data          0x00000000000101d4        0x4 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                0x00000000000101d4                trace_level
+ .data.rel.ro.local
+                0x00000000000101d8       0x54 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                0x00000000000101d8                ta_props
+ .data.rel.local
+                0x000000000001022c       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .data.rel      0x000000000001023c        0x4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .data.rel.local
+                0x0000000000010240       0x5c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .data.rel.ro   0x000000000001029c        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .data          0x000000000001029c        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.igot.plt       0x000000000001029c        0x0
+ .igot.plt      0x000000000001029c        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+.bss            0x000000000001029c     0x704c
+ *(SORT_BY_ALIGNMENT(.bss) SORT_BY_ALIGNMENT(.bss.*) SORT_BY_ALIGNMENT(.gnu.linkonce.b.*) SORT_BY_ALIGNMENT(COMMON))
+ .bss           0x000000000001029c     0x4000 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                0x000000000001029c                ta_heap
+ .bss           0x000000000001429c        0x4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .bss           0x00000000000142a0        0x4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .bss           0x00000000000142a4       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+                0x00000000000142a4                ta_param_types
+                0x00000000000142a8                ta_params
+                0x00000000000142c8                __elf_phdr_info
+ .bss           0x00000000000142dc     0x3000 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .bss           0x00000000000172dc        0x8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .bss           0x00000000000172e4        0x4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+                0x00000000000172e4                mbedtls_mpi_mempool
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .bss           0x00000000000172e8        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+                0x00000000000172e8                . = ALIGN (0x8)
+                0x00000000000172e8                __ftrace_buf_start = .
+                0x00000000000172e8                . = (. + DEFINED (__gnu_mcount_nc)?0x800:0x0)
+                0x00000000000172e8                __ftrace_buf_end = .
+
+.dynbss         0x00000000000172e8        0x0
+ .dynbss        0x00000000000172e8        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+
+/DISCARD/
+ *(SORT_BY_ALIGNMENT(.interp))
+LOAD out/arm-plat-stm32mp1/ta/avb/entry.o
+LOAD out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+LOAD out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+START GROUP
+LOAD out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a
+LOAD out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a
+LOAD out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a
+END GROUP
+LOAD /opt/embedded/crosstools/arm-gnu-toolchain-11.3.rel1-x86_64-arm-none-linux-gnueabihf/bin/../lib/gcc/arm-none-linux-gnueabihf/11.3.1/libgcc.a
+OUTPUT(out/arm-plat-stm32mp1/ta/avb/023f8f1a-292a-432b-8fc4-de8471358067.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0xbd6c
+ .debug_info    0x0000000000000000      0x9e3 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_info    0x00000000000009e3      0x3c9 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_info    0x0000000000000dac       0x24 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .debug_info    0x0000000000000dd0       0xd8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_info    0x0000000000000ea8       0xa8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_info    0x0000000000000f50      0x3ec out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_info    0x000000000000133c      0x584 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_info    0x00000000000018c0       0xee out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_info    0x00000000000019ae       0x23 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_info    0x00000000000019d1      0x1f4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_info    0x0000000000001bc5      0x232 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_info    0x0000000000001df7      0xdd6 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_info    0x0000000000002bcd     0x10ed out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_info    0x0000000000003cba      0x34e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_info    0x0000000000004008      0x510 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_info    0x0000000000004518       0x23 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .debug_info    0x000000000000453b      0xdef out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_info    0x000000000000532a       0xa3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_info    0x00000000000053cd     0x1f7d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_info    0x000000000000734a      0x55b out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_info    0x00000000000078a5      0x123 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_info    0x00000000000079c8     0x2524 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_info    0x0000000000009eec      0x110 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_info    0x0000000000009ffc     0x1520 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_info    0x000000000000b51c      0x16c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_info    0x000000000000b688       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_info    0x000000000000b778       0xf0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_info    0x000000000000b868      0x41e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_info    0x000000000000bc86       0xe6 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_abbrev   0x0000000000000000     0x2b60
+ .debug_abbrev  0x0000000000000000      0x2c9 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_abbrev  0x00000000000002c9      0x1ab out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_abbrev  0x0000000000000474       0x14 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .debug_abbrev  0x0000000000000488       0xa2 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_abbrev  0x000000000000052a       0x8c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_abbrev  0x00000000000005b6      0x1ff out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_abbrev  0x00000000000007b5      0x1e3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_abbrev  0x0000000000000998       0xbd out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_abbrev  0x0000000000000a55       0x12 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_abbrev  0x0000000000000a67       0xf7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000000b5e      0x15b out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_abbrev  0x0000000000000cb9      0x2f7 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_abbrev  0x0000000000000fb0      0x29f out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_abbrev  0x000000000000124f      0x175 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_abbrev  0x00000000000013c4      0x1c4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_abbrev  0x0000000000001588       0x12 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .debug_abbrev  0x000000000000159a      0x37e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_abbrev  0x0000000000001918       0x64 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_abbrev  0x000000000000197c      0x371 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_abbrev  0x0000000000001ced      0x1f9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_abbrev  0x0000000000001ee6       0xa5 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_abbrev  0x0000000000001f8b      0x319 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_abbrev  0x00000000000022a4       0xbe out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_abbrev  0x0000000000002362      0x339 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_abbrev  0x000000000000269b      0x110 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_abbrev  0x00000000000027ab       0xae out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_abbrev  0x0000000000002859       0xae out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_abbrev  0x0000000000002907      0x1bf out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_abbrev  0x0000000000002ac6       0x9a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_aranges  0x0000000000000000      0x568
+ .debug_aranges
+                0x0000000000000000       0x20 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_aranges
+                0x0000000000000020       0x20 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_aranges
+                0x0000000000000040       0x20 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .debug_aranges
+                0x0000000000000060       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_aranges
+                0x0000000000000080       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_aranges
+                0x0000000000000100       0x28 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_aranges
+                0x0000000000000128       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_aranges
+                0x0000000000000148       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_aranges
+                0x0000000000000168       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_aranges
+                0x0000000000000188       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_aranges
+                0x00000000000001e8      0x1e0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .debug_aranges
+                0x00000000000003c8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_aranges
+                0x00000000000003e8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_aranges
+                0x0000000000000408       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_aranges
+                0x0000000000000428       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_aranges
+                0x0000000000000448       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_aranges
+                0x0000000000000468       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_aranges
+                0x0000000000000488       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_aranges
+                0x00000000000004a8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_aranges
+                0x00000000000004c8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_aranges
+                0x00000000000004e8       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_aranges
+                0x0000000000000508       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_aranges
+                0x0000000000000528       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_aranges
+                0x0000000000000548       0x20 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_macro    0x0000000000000000    0x17008
+ .debug_macro   0x0000000000000000      0x10a out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x000000000000010a      0xaea out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000000bf4      0x6be out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x00000000000012b2       0x3a out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x00000000000012ec      0x16d out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000001459       0xf3 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x000000000000154c      0x9b3 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000001eff       0x7c out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000001f7b      0x1a7 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002122       0xc4 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x00000000000021e6       0x22 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002208       0x35 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x000000000000223d       0x58 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002295       0x34 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x00000000000022c9       0x79 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002342       0x10 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002352       0xdc out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x000000000000242e       0x16 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002444       0xf0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_macro   0x0000000000002534      0x16c out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x00000000000026a0      0xaea out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x000000000000318a       0x2e out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x00000000000031b8       0x39 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x00000000000031f1       0x76 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000003267       0x1c out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_macro   0x0000000000003283       0x51 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_macro   0x00000000000032d4      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000003dbe       0x7c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000003e3a       0x5a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000003e94      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_macro   0x000000000000497e       0xd6 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000004a54      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x000000000000553e       0xea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000005628      0x13d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000005765      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_macro   0x000000000000624f       0x66 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x00000000000062b5      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000006d9f       0x1a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_macro   0x0000000000006db9      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_macro   0x00000000000078a3       0xf1 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000007994      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x000000000000847e      0x183 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000008601      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_macro   0x00000000000090eb      0x136 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000009221      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000009d0b      0x108 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000009e13      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x000000000000a8fd       0x28 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x000000000000a925      0x13b out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x000000000000aa60      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x000000000000b54a       0x89 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x000000000000b5d3      0x1d6 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000b7a9      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000c293     0x15e6 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000d879       0x4a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000d8c3      0x2e9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000dbac       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000dbe0      0x11d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x000000000000dcfd      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_macro   0x000000000000e7e7      0x1af out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000e996      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000f480       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000f490      0x124 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000f5b4       0x12 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000f5c6       0x79 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000f63f      0x1e9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000f828      0x189 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x000000000000f9b1      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x000000000001049b       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_macro   0x00000000000104ab      0x106 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x00000000000105b1      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_macro   0x000000000001109b      0x1c3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000001125e      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000011d48       0x2b out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000011d73       0x1e out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000011d91       0x17 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000011da8       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000011db8      0x15c out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000011f14      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x00000000000129fe       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000012a0e       0x7f out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000012a8d       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000012aa3      0x153 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000012bf6      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x00000000000136e0       0x16 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x00000000000136f6       0x10 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000013706       0x3c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000013742       0x4d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_macro   0x000000000001378f      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000014279       0x57 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_macro   0x00000000000142d0      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000014dba       0x64 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000014e1e      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000015908       0xed out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x00000000000159f5      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_macro   0x00000000000164df       0x3f out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x000000000001651e      0xaea out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_line     0x0000000000000000     0x9146
+ .debug_line    0x0000000000000000      0x56c out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_line    0x000000000000056c      0x309 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_line    0x0000000000000875       0x49 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .debug_line    0x00000000000008be      0x20b out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_line    0x0000000000000ac9      0x1b3 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_line    0x0000000000000c7c      0x329 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_line    0x0000000000000fa5      0x806 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_line    0x00000000000017ab      0x20a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_line    0x00000000000019b5       0x62 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_line    0x0000000000001a17      0x14c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_line    0x0000000000001b63      0x2c9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_line    0x0000000000001e2c      0x6a8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_line    0x00000000000024d4      0x845 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_line    0x0000000000002d19      0x2cb out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_line    0x0000000000002fe4      0x3bd out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_line    0x00000000000033a1      0x425 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .debug_line    0x00000000000037c6      0x7dc out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_line    0x0000000000003fa2      0x25c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_line    0x00000000000041fe      0xa66 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_line    0x0000000000004c64      0x4af out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_line    0x0000000000005113      0x2a4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_line    0x00000000000053b7     0x2591 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_line    0x0000000000007948      0x2dc out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_line    0x0000000000007c24      0xa51 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_line    0x0000000000008675      0x197 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_line    0x000000000000880c      0x1fd out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_line    0x0000000000008a09      0x238 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_line    0x0000000000008c41      0x2d1 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_line    0x0000000000008f12      0x234 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_str      0x0000000000000000    0x1821f
+ .debug_str     0x0000000000000000     0xaa18 out/arm-plat-stm32mp1/ta/avb/entry.o
+                                       0xac03 (size before relaxing)
+ .debug_str     0x000000000000aa18      0x831 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+                                       0xb041 (size before relaxing)
+ .debug_str     0x000000000000b249       0x45 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+                                         0x94 (size before relaxing)
+ .debug_str     0x000000000000b28e      0x359 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+                                       0x4c87 (size before relaxing)
+ .debug_str     0x000000000000b5e7       0x8a out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+                                       0x4e58 (size before relaxing)
+ .debug_str     0x000000000000b671      0x12c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+                                       0x6bdc (size before relaxing)
+ .debug_str     0x000000000000b79d      0x5b8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+                                       0x6088 (size before relaxing)
+ .debug_str     0x000000000000bd55       0xbb out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+                                       0x4eb8 (size before relaxing)
+ .debug_str     0x000000000000be10       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                                         0x90 (size before relaxing)
+ .debug_str     0x000000000000be45       0xb9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+                                       0x4770 (size before relaxing)
+ .debug_str     0x000000000000befe       0x66 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+                                       0xa20a (size before relaxing)
+ .debug_str     0x000000000000bf64      0x52d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+                                       0xb22b (size before relaxing)
+ .debug_str     0x000000000000c491      0x6f9 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+                                       0xa2c5 (size before relaxing)
+ .debug_str     0x000000000000cb8a      0x297 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+                                       0xa4b6 (size before relaxing)
+ .debug_str     0x000000000000ce21      0x359 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+                                       0xac69 (size before relaxing)
+ .debug_str     0x000000000000d17a       0x29 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                                         0x84 (size before relaxing)
+ .debug_str     0x000000000000d1a3     0x7652 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+                                      0x124ec (size before relaxing)
+ .debug_str     0x00000000000147f5       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+                                       0x99f5 (size before relaxing)
+ .debug_str     0x0000000000014829     0x1d34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+                                       0xc607 (size before relaxing)
+ .debug_str     0x000000000001655d      0x26f out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+                                      0x11c66 (size before relaxing)
+ .debug_str     0x00000000000167cc       0x40 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+                                       0x9ebb (size before relaxing)
+ .debug_str     0x000000000001680c      0xc48 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+                                       0x7f35 (size before relaxing)
+ .debug_str     0x0000000000017454      0x3ff out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+                                       0x6885 (size before relaxing)
+ .debug_str     0x0000000000017853      0x716 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+                                       0x74cb (size before relaxing)
+ .debug_str     0x0000000000017f69       0x46 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+                                       0x4bb3 (size before relaxing)
+ .debug_str     0x0000000000017faf      0x12e out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+                                       0x4ce0 (size before relaxing)
+ .debug_str     0x00000000000180dd       0x5b out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+                                       0x4ecc (size before relaxing)
+ .debug_str     0x0000000000018138       0x7f out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+                                       0x6e04 (size before relaxing)
+ .debug_str     0x00000000000181b7       0x68 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+                                       0x4c59 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 out/arm-plat-stm32mp1/ta/avb/entry.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .comment       0x0000000000000033       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x35 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .ARM.attributes
+                0x0000000000000035       0x35 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .ARM.attributes
+                0x000000000000006a       0x27 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+ .ARM.attributes
+                0x0000000000000091       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .ARM.attributes
+                0x00000000000000c6       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .ARM.attributes
+                0x00000000000000fb       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .ARM.attributes
+                0x0000000000000130       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .ARM.attributes
+                0x0000000000000165       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .ARM.attributes
+                0x000000000000019a       0x27 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .ARM.attributes
+                0x00000000000001c1       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000000000001f6       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .ARM.attributes
+                0x000000000000022b       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .ARM.attributes
+                0x0000000000000260       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .ARM.attributes
+                0x0000000000000295       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .ARM.attributes
+                0x00000000000002ca       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .ARM.attributes
+                0x00000000000002ff       0x27 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+ .ARM.attributes
+                0x0000000000000326       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .ARM.attributes
+                0x000000000000035b       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .ARM.attributes
+                0x0000000000000390       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .ARM.attributes
+                0x00000000000003c5       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .ARM.attributes
+                0x00000000000003fa       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .ARM.attributes
+                0x000000000000042f       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .ARM.attributes
+                0x0000000000000464       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .ARM.attributes
+                0x0000000000000499       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .ARM.attributes
+                0x00000000000004ce       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .ARM.attributes
+                0x0000000000000503       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .ARM.attributes
+                0x0000000000000538       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .ARM.attributes
+                0x000000000000056d       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .ARM.attributes
+                0x00000000000005a2       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_frame    0x0000000000000000     0x3064
+ .debug_frame   0x0000000000000000      0x248 out/arm-plat-stm32mp1/ta/avb/entry.o
+ .debug_frame   0x0000000000000248       0x50 out/arm-plat-stm32mp1/ta/avb/user_ta_header.o
+ .debug_frame   0x0000000000000298       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memset.o)
+ .debug_frame   0x00000000000002d0       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(strlen.o)
+ .debug_frame   0x0000000000000308      0x144 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(trace.o)
+ .debug_frame   0x000000000000044c      0x110 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintk.o)
+ .debug_frame   0x000000000000055c       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memchr.o)
+ .debug_frame   0x0000000000000594       0xc8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod.o)
+ .debug_frame   0x000000000000065c       0xd8 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(trace_ext.o)
+ .debug_frame   0x0000000000000734      0x3ac out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api.o)
+ .debug_frame   0x0000000000000ae0      0x4b4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_objects.o)
+ .debug_frame   0x0000000000000f94      0x154 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_panic.o)
+ .debug_frame   0x00000000000010e8      0x10c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_system_pta.o)
+ .debug_frame   0x00000000000011f4      0x2d0 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(user_ta_entry.o)
+ .debug_frame   0x00000000000014c4       0x2c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(abort.o)
+ .debug_frame   0x00000000000014f0      0x634 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_frame   0x0000000000001b24       0x8c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(tcb.o)
+ .debug_frame   0x0000000000001bb0       0x50 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(assert.o)
+ .debug_frame   0x0000000000001c00      0xb0c out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(bignum.o)
+ .debug_frame   0x000000000000270c       0x34 out/arm-plat-stm32mp1/export-ta_arm32/lib/libmbedtls.a(platform_util.o)
+ .debug_frame   0x0000000000002740      0x6f4 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(bget_malloc.o)
+ .debug_frame   0x0000000000002e34       0x6c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(snprintf.o)
+ .debug_frame   0x0000000000002ea0       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memcpy.o)
+ .debug_frame   0x0000000000002ed8       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(memmove.o)
+ .debug_frame   0x0000000000002f10      0x11c out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(mempool.o)
+ .debug_frame   0x000000000000302c       0x38 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(consttime_memcmp.o)
+
+.debug_line_str
+                0x0000000000000000       0xfa
+ .debug_line_str
+                0x0000000000000000       0x88 out/arm-plat-stm32mp1/ta/avb/ta_entry_a32.o
+                                         0x97 (size before relaxing)
+ .debug_line_str
+                0x0000000000000088       0x35 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+                                         0x9e (size before relaxing)
+ .debug_line_str
+                0x00000000000000bd       0x3d out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)
+                                         0xa0 (size before relaxing)
+
+.debug_rnglists
+                0x0000000000000000      0x17c
+ .debug_rnglists
+                0x0000000000000000       0x19 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutils.a(arm32_aeabi_ldivmod_a32.o)
+ .debug_rnglists
+                0x0000000000000019      0x163 out/arm-plat-stm32mp1/export-ta_arm32/lib/libutee.a(utee_syscalls_a32.o)

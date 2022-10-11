@@ -1,0 +1,4 @@
+optee-os,./tee-header_v2.bin
+optee-os,./tee-pageable_v2.bin
+optee-os,./tee-pager_v2.bin
+optee-os,./tee.bin

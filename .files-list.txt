@@ -1,0 +1,5 @@
+optee-os,./lib/optee_armtz/023f8f1a-292a-432b-8fc4-de8471358067.ta
+optee-os,./lib/optee_armtz/fd02c9da-306c-48c7-a49c-bbd827ae86ee.ta
+optee-os,./lib/optee_armtz/80a4c275-0a47-4905-8285-1486a9771a08.ta
+optee-os,./lib/optee_armtz/1a8342cc-81a5-4512-99fe-9e2b3e37d626.ta
+optee-os,./lib/optee_armtz/f04a0fe7-1f5d-4b9b-abf7-619b85b4ce8c.ta
